@@ -11,13 +11,13 @@
     "ALLOWED_ORIGINS": "",
     "SCAN_DAILY_LIMIT_PER_INSTALL": "5",
     "SCAN_DAILY_LIMIT_PER_IP": "30",
-    "INSIGHTS_DAILY_LIMIT_PER_INSTALL": "10"
+    "INSIGHTS_DAILY_LIMIT_PER_INSTALL": "10",
   },
   // Contadores diários. Crie com: npx wrangler kv namespace create RATE_KV
-  "kv_namespaces": [{ "binding": "RATE_KV", "id": "COLE_AQUI_O_ID_DO_NAMESPACE" }],
+  "kv_namespaces": [{ "binding": "RATE_KV", "id": "42a8f9320a3847178f21e16ae21db12c" }],
   // Proteção contra rajadas por IP (gratuito; período de 10 ou 60 s).
   "ratelimits": [
-    { "name": "BURST_LIMITER", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }
-  ]
+    { "name": "BURST_LIMITER", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } },
+  ],
   // Secret (não fica aqui): npx wrangler secret put GEMINI_API_KEY
 }

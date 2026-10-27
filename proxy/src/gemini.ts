@@ -61,7 +61,12 @@ export async function generateJson(
   }
 
   if (!res || res.status === 429) throw new HttpError(503, 'upstream_busy');
-  if (!res.ok) throw new HttpError(502, 'upstream_error', `Gemini ${res.status}`);
+  if (!res.ok) {
+    // Só status e mensagem de erro da API (nunca a imagem ou a chave), para diagnóstico via `wrangler tail`.
+    const detail = (await res.text().catch(() => '')).slice(0, 500);
+    console.error('gemini_error', res.status, req.model, detail);
+    throw new HttpError(502, 'upstream_error', `Gemini ${res.status}`);
+  }
 
   const data = (await res.json()) as {
     candidates?: { content?: { parts?: { text?: string }[] }; finishReason?: string }[];
