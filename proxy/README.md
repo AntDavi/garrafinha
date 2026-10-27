@@ -17,7 +17,7 @@ Erros: `{ error: "<código>" }` com status 400 (entrada inválida), 403 (origem)
 - **Imagem:** até 1,5 MB decodificada. Os bytes iniciais precisam bater com o `mime` declarado.
 - **Limites:**
   - Rajada por IP: 10 req/60 s (binding Rate Limiting).
-  - Diário por instalação (`SCAN_DAILY_LIMIT_PER_INSTALL`, padrão 5) e por IP (`SCAN_DAILY_LIMIT_PER_IP`, padrão 30), em KV.
+  - Diário por instalação (`SCAN_DAILY_LIMIT_PER_INSTALL`, padrão 5) e por IP (`SCAN_DAILY_LIMIT_PER_IP`, padrão 30), em KV. A cota da instalação só é descontada quando o scan dá certo (erro do Gemini não gasta o scan do usuário). O limite por IP conta toda chamada que chega ao Gemini.
 - **CORS:** requisições sem `Origin` (o app nativo) passam. Navegadores só passam se a origem estiver em `ALLOWED_ORIGINS`.
 - **Gemini 429/503:** até 3 tentativas, com espera de 250 ms e depois 500 ms (ou o `Retry-After`, limitado a 2 s).
 - **Privacidade:** ao Gemini vão só a imagem e um prompt fixo. O `installId` (UUID aleatório) serve apenas para o limite e não é repassado. Nenhum dado de perfil é aceito.
@@ -70,5 +70,5 @@ npm run typecheck && npm test
 ## Limites do plano gratuito (atenção)
 
 - **Workers:** 100 mil requisições/dia.
-- **KV:** 1.000 escritas/dia. Cada scan grava 2 contadores, o que limita a uns 500 scans/dia no total. Acima disso, troque por Durable Objects ou D1.
+- **KV:** 1.000 escritas/dia. Cada scan bem-sucedido grava 2 contadores, o que limita a uns 500 scans/dia no total. Acima disso, troque por Durable Objects ou D1.
 - **Gemini free tier:** limites por minuto e por dia, que variam por modelo e podem mudar. No free tier, o Google pode usar o conteúdo enviado para melhorar seus produtos. Isso deve constar na política de privacidade do app (ver `docs/DECISOES.md`).

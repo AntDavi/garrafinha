@@ -79,7 +79,7 @@ export async function handleScan(request: Request, env: Env, ip: string, deps?: 
   if (decodedSize(image) > MAX_IMAGE_BYTES) throw new HttpError(413, 'image_too_large');
   if (!matchesMime(image, mime)) throw new HttpError(415, 'unsupported_image');
 
-  await enforceLimits(env, {
+  const limits = await enforceLimits(env, {
     route: 'scan',
     installId,
     ip,
@@ -100,5 +100,6 @@ export async function handleScan(request: Request, env: Env, ip: string, deps?: 
   );
   const result = scanResultSchema.safeParse(raw);
   if (!result.success) throw new HttpError(502, 'upstream_invalid');
+  await limits.commit();
   return result.data;
 }

@@ -56,7 +56,7 @@ Os sinônimos regionais (aipim, mexerica, etc.) ficam em `normalize.ts`. Todos o
 ## Limites do free tier
 
 - **Gemini API (free tier):** limites por minuto (RPM) e por dia (RPD) que variam por modelo e mudam com frequência. Consulte https://ai.google.dev/gemini-api/docs/rate-limits. O proxy:
-  - limita por instalação (5/dia, configurável) e por IP;
+  - limita por instalação (5/dia, configurável), descontando só scans que deram certo, e por IP (toda chamada ao Gemini conta);
   - faz retry curto em 429/503;
   - responde 503 (`upstream_busy`) quando a cota acaba, e o app mostra "tente mais tarde".
   - O modelo é configurável (`GEMINI_MODEL`); o padrão é `gemini-3.5-flash-lite`.

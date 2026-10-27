@@ -53,7 +53,7 @@ export async function handleInsights(request: Request, env: Env, ip: string, dep
   if (!parsed.success) throw new HttpError(400, 'invalid_request');
 
   const perInstall = intVar(env.INSIGHTS_DAILY_LIMIT_PER_INSTALL, 10);
-  await enforceLimits(env, {
+  const limits = await enforceLimits(env, {
     route: 'insights',
     installId: parsed.data.installId,
     ip,
@@ -76,5 +76,6 @@ export async function handleInsights(request: Request, env: Env, ip: string, dep
   if (!result.success || !result.data.insights.every(isSafeInsight)) {
     throw new HttpError(502, 'upstream_invalid');
   }
+  await limits.commit();
   return result.data;
 }

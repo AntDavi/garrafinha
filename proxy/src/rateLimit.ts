@@ -8,7 +8,7 @@ const today = (now: Date) => now.toISOString().slice(0, 10);
 /**
  * Contador diário em KV. KV é eventualmente consistente: o limite é "suave" (pode passar de 1–2
  * em acessos simultâneos), suficiente para proteger a cota gratuita do Gemini.
- * Free tier do KV: 1.000 escritas/dia → cada scan consome 2 escritas (instalação + IP).
+ * Free tier do KV: 1.000 escritas/dia → cada scan bem-sucedido consome 2 escritas (instalação + IP).
  */
 export async function consumeDaily(
   kv: KVNamespace,
@@ -23,21 +23,32 @@ export async function consumeDaily(
   return { ok: true, count: current + 1 };
 }
 
-/** Aplica burst por IP (Rate Limiting binding) e limites diários por instalação e por IP. */
+/**
+ * Aplica burst por IP (Rate Limiting binding), o limite diário por IP (conta toda chamada que chega
+ * ao Gemini, para proteger a cota) e confere o limite por instalação. A cota da instalação só é
+ * descontada por `commit()`, chamado depois de uma resposta válida: falha do Gemini não gasta o
+ * scan do usuário.
+ */
 export async function enforceLimits(
   env: Env,
   opts: { route: string; installId: string; ip: string; perInstall: number; perIp: number },
-): Promise<void> {
+  now = new Date(),
+): Promise<{ commit: () => Promise<void> }> {
   if (env.BURST_LIMITER) {
     const { success } = await env.BURST_LIMITER.limit({ key: `${opts.route}:${opts.ip}` });
     if (!success) throw new HttpError(429, 'rate_limited');
   }
-  const byIp = await consumeDaily(env.RATE_KV, `${opts.route}:ip:${opts.ip}`, opts.perIp);
+  const installKey = `${opts.route}:inst:${opts.installId}:${today(now)}`;
+  const used = Number((await env.RATE_KV.get(installKey)) ?? '0');
+  if (used >= opts.perInstall) throw new HttpError(429, 'daily_limit_install');
+
+  const byIp = await consumeDaily(env.RATE_KV, `${opts.route}:ip:${opts.ip}`, opts.perIp, now);
   if (!byIp.ok) throw new HttpError(429, 'daily_limit_ip');
-  const byInstall = await consumeDaily(
-    env.RATE_KV,
-    `${opts.route}:inst:${opts.installId}`,
-    opts.perInstall,
-  );
-  if (!byInstall.ok) throw new HttpError(429, 'daily_limit_install');
+
+  return {
+    commit: async () => {
+      const current = Number((await env.RATE_KV.get(installKey)) ?? '0');
+      await env.RATE_KV.put(installKey, String(current + 1), { expirationTtl: DAY_TTL_SECONDS });
+    },
+  };
 }

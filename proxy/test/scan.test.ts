@@ -51,6 +51,22 @@ describe('POST /scan', () => {
     expect(await third.json()).toEqual({ error: 'daily_limit_install' });
   });
 
+  it('só desconta a cota da instalação quando o scan dá certo', async () => {
+    const env = makeEnv();
+    const deps = fakeDeps([
+      () => new Response('{}', { status: 402 }),
+      () => geminiReply({ formato: 'errado' }),
+      () => geminiReply(ok),
+      () => geminiReply(ok),
+    ]);
+    expect((await handle(post('/scan', body), env, deps)).status).toBe(502);
+    expect((await handle(post('/scan', body), env, deps)).status).toBe(502);
+    // Limite 2: as duas falhas não contaram.
+    expect((await handle(post('/scan', body), env, deps)).status).toBe(200);
+    expect((await handle(post('/scan', body), env, deps)).status).toBe(200);
+    expect((await handle(post('/scan', body), env, fakeDeps([]))).status).toBe(429);
+  });
+
   it('aplica limite por IP e o rate limiting de rajada', async () => {
     const env = makeEnv({ SCAN_DAILY_LIMIT_PER_IP: '1', SCAN_DAILY_LIMIT_PER_INSTALL: '10' });
     const deps = fakeDeps([() => geminiReply(ok)]);
