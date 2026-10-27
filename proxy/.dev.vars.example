@@ -1,0 +1,2 @@
+# Copie para .dev.vars para usar com `npm run dev` (nunca commite .dev.vars).
+GEMINI_API_KEY=sua-chave-do-google-ai-studio

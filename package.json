@@ -54,7 +54,8 @@
     "test:watch": "vitest",
     "data:exercises": "tsx scripts/build-exercises.ts",
     "data:foods": "tsx scripts/build-foods.ts",
-    "check": "npm run typecheck && npm run lint && npm test"
+    "check": "npm run typecheck && npm run lint && npm test",
+    "proxy:check": "npm --prefix proxy run typecheck && npm --prefix proxy test"
   },
   "private": true,
   "engines": {
