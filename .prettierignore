@@ -1,0 +1,7 @@
+node_modules
+assets/data
+proxy/node_modules
+proxy/.wrangler
+.expo
+dist
+package-lock.json

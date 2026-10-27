@@ -39,3 +39,13 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# env
+.env
+
+# fontes de dados locais (TACO baixada manualmente)
+scripts/sources/*
+!scripts/sources/.gitkeep
+
+# testes
+coverage/
