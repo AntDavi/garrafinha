@@ -19,6 +19,7 @@ describe('migrations', () => {
       expect.arrayContaining([
         'app_meta',
         'exercises',
+        'foods',
         'meal_items',
         'meals',
         'profile',

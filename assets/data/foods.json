@@ -1,0 +1,7143 @@
+{
+ "version": "39b86c4f6311",
+ "source": {
+  "name": "Tabela Brasileira de Composição de Alimentos (TACO), 4ª edição revisada e ampliada — NEPA/UNICAMP, 2011",
+  "url": "https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/Taco-4a-Edicao.xlsx",
+  "sheet": "CMVCol taco3",
+  "license": "Reprodução total ou parcial permitida desde que citada a fonte (NEPA/UNICAMP)."
+ },
+ "generatedAt": "2026-10-27T15:56:37.514Z",
+ "excluded": [
+  {
+   "id": "taco:450",
+   "name": "Iogurte, sabor abacaxi",
+   "reason": "kcal: análise em reavaliação (*); protein: análise em reavaliação (*); carbs: análise em reavaliação (*); fat: análise em reavaliação (*)"
+  },
+  {
+   "id": "taco:457",
+   "name": "Leite, de vaca, desnatado, UHT",
+   "reason": "kcal: análise em reavaliação (*); protein: análise em reavaliação (*); carbs: análise em reavaliação (*); fat: análise em reavaliação (*)"
+  },
+  {
+   "id": "taco:458",
+   "name": "Leite, de vaca, integral",
+   "reason": "kcal: análise em reavaliação (*); protein: análise em reavaliação (*); carbs: análise em reavaliação (*); fat: análise em reavaliação (*)"
+  },
+  {
+   "id": "taco:472",
+   "name": "Cana, aguardente",
+   "reason": "protein: análise não disponível (vazio); carbs: análise não disponível (vazio); fat: análise não disponível (vazio)"
+  },
+  {
+   "id": "taco:591",
+   "name": "Coco, verde, cru",
+   "reason": "kcal: análise em reavaliação (*); protein: análise em reavaliação (*); carbs: análise em reavaliação (*); fat: análise em reavaliação (*)"
+  }
+ ],
+ "foods": [
+  {
+   "id": "taco:1",
+   "name": "Arroz, integral, cozido",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 123.53,
+    "protein": 2.59,
+    "carbs": 25.81,
+    "fat": 1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:2",
+   "name": "Arroz, integral, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 359.68,
+    "protein": 7.32,
+    "carbs": 77.45,
+    "fat": 1.86
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:3",
+   "name": "Arroz, tipo 1, cozido",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 128.26,
+    "protein": 2.52,
+    "carbs": 28.06,
+    "fat": 0.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:4",
+   "name": "Arroz, tipo 1, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 357.79,
+    "protein": 7.16,
+    "carbs": 78.76,
+    "fat": 0.34
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:5",
+   "name": "Arroz, tipo 2, cozido",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 130.12,
+    "protein": 2.57,
+    "carbs": 28.19,
+    "fat": 0.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:6",
+   "name": "Arroz, tipo 2, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 358.12,
+    "protein": 7.24,
+    "carbs": 78.88,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:7",
+   "name": "Aveia, flocos, crua",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 393.82,
+    "protein": 13.92,
+    "carbs": 66.64,
+    "fat": 8.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:8",
+   "name": "Biscoito, doce, maisena",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 442.82,
+    "protein": 8.07,
+    "carbs": 75.23,
+    "fat": 11.97
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:9",
+   "name": "Biscoito, doce, recheado com chocolate",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 471.82,
+    "protein": 6.4,
+    "carbs": 70.55,
+    "fat": 19.58
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:10",
+   "name": "Biscoito, doce, recheado com morango",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 471.17,
+    "protein": 5.72,
+    "carbs": 71.01,
+    "fat": 19.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:11",
+   "name": "Biscoito, doce, wafer, recheado de chocolate",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 502.46,
+    "protein": 5.56,
+    "carbs": 67.54,
+    "fat": 24.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:12",
+   "name": "Biscoito, doce, wafer, recheado de morango",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 513.45,
+    "protein": 4.52,
+    "carbs": 67.35,
+    "fat": 26.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:13",
+   "name": "Biscoito, salgado, cream cracker",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 431.73,
+    "protein": 10.06,
+    "carbs": 68.73,
+    "fat": 14.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:14",
+   "name": "Bolo, mistura para",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 418.63,
+    "protein": 6.16,
+    "carbs": 84.71,
+    "fat": 6.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:15",
+   "name": "Bolo, pronto, aipim",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 323.85,
+    "protein": 4.42,
+    "carbs": 47.86,
+    "fat": 12.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:16",
+   "name": "Bolo, pronto, chocolate",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 410.01,
+    "protein": 6.22,
+    "carbs": 54.72,
+    "fat": 18.47
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:17",
+   "name": "Bolo, pronto, coco",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 333.44,
+    "protein": 5.67,
+    "carbs": 52.28,
+    "fat": 11.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:18",
+   "name": "Bolo, pronto, milho",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 311.39,
+    "protein": 4.8,
+    "carbs": 45.11,
+    "fat": 12.42
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:19",
+   "name": "Canjica, branca, crua",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 357.6,
+    "protein": 7.2,
+    "carbs": 78.06,
+    "fat": 0.97
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:20",
+   "name": "Canjica, com leite integral",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 112.46,
+    "protein": 2.36,
+    "carbs": 23.63,
+    "fat": 1.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:21",
+   "name": "Cereais, milho, flocos, com sal",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 369.6,
+    "protein": 7.29,
+    "carbs": 80.83,
+    "fat": 1.6
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:22",
+   "name": "Cereais, milho, flocos, sem sal",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 363.34,
+    "protein": 6.88,
+    "carbs": 80.45,
+    "fat": 1.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:23",
+   "name": "Cereais, mingau, milho, infantil",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 394.43,
+    "protein": 6.43,
+    "carbs": 87.27,
+    "fat": 1.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:24",
+   "name": "Cereais, mistura para vitamina, trigo, cevada e aveia",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 381.13,
+    "protein": 8.9,
+    "carbs": 81.62,
+    "fat": 2.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:25",
+   "name": "Cereal matinal, milho",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 365.35,
+    "protein": 7.16,
+    "carbs": 83.82,
+    "fat": 0.96
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:26",
+   "name": "Cereal matinal, milho, açúcar",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 376.56,
+    "protein": 4.74,
+    "carbs": 88.84,
+    "fat": 0.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:27",
+   "name": "Creme de arroz, pó",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 386,
+    "protein": 7.03,
+    "carbs": 83.87,
+    "fat": 1.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:28",
+   "name": "Creme de milho, pó",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 333.03,
+    "protein": 4.82,
+    "carbs": 86.15,
+    "fat": 1.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:29",
+   "name": "Curau, milho verde",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 78.43,
+    "protein": 2.36,
+    "carbs": 13.94,
+    "fat": 1.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:30",
+   "name": "Curau, milho verde, mistura para",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 402.29,
+    "protein": 2.22,
+    "carbs": 79.82,
+    "fat": 13.37
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:31",
+   "name": "Farinha, de arroz, enriquecida",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 363.06,
+    "protein": 1.27,
+    "carbs": 85.5,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:32",
+   "name": "Farinha, de centeio, integral",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 335.78,
+    "protein": 12.52,
+    "carbs": 73.3,
+    "fat": 1.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:33",
+   "name": "Farinha, de milho, amarela",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 350.59,
+    "protein": 7.19,
+    "carbs": 79.08,
+    "fat": 1.47
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:34",
+   "name": "Farinha, de rosca",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 370.58,
+    "protein": 11.38,
+    "carbs": 75.79,
+    "fat": 1.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:35",
+   "name": "Farinha, de trigo",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 360.47,
+    "protein": 9.79,
+    "carbs": 75.09,
+    "fat": 1.37
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:36",
+   "name": "Farinha, láctea, de cereais",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 414.85,
+    "protein": 11.88,
+    "carbs": 77.77,
+    "fat": 5.79
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:37",
+   "name": "Lasanha, massa fresca, cozida",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 163.76,
+    "protein": 5.81,
+    "carbs": 32.52,
+    "fat": 1.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:38",
+   "name": "Lasanha, massa fresca, crua",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 220.31,
+    "protein": 7.01,
+    "carbs": 45.06,
+    "fat": 1.34
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:39",
+   "name": "Macarrão, instantâneo",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 435.86,
+    "protein": 8.79,
+    "carbs": 62.43,
+    "fat": 17.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:40",
+   "name": "Macarrão, trigo, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 371.12,
+    "protein": 10,
+    "carbs": 77.94,
+    "fat": 1.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:41",
+   "name": "Macarrão, trigo, cru, com ovos",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 370.57,
+    "protein": 10.32,
+    "carbs": 76.62,
+    "fat": 1.97
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:42",
+   "name": "Milho, amido, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 361.37,
+    "protein": 0.6,
+    "carbs": 87.15,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:43",
+   "name": "Milho, fubá, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 353.48,
+    "protein": 7.21,
+    "carbs": 78.87,
+    "fat": 1.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:44",
+   "name": "Milho, verde, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 138.17,
+    "protein": 6.59,
+    "carbs": 28.56,
+    "fat": 0.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:45",
+   "name": "Milho, verde, enlatado, drenado",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 97.56,
+    "protein": 3.23,
+    "carbs": 17.14,
+    "fat": 2.35
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:46",
+   "name": "Mingau tradicional, pó",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 373.42,
+    "protein": 0.58,
+    "carbs": 89.34,
+    "fat": 0.37
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:47",
+   "name": "Pamonha, barra para cozimento, pré-cozida",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 171.22,
+    "protein": 2.55,
+    "carbs": 30.68,
+    "fat": 4.85
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:48",
+   "name": "Pão, aveia, forma",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 343.09,
+    "protein": 12.35,
+    "carbs": 59.57,
+    "fat": 5.69
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:49",
+   "name": "Pão, de soja",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 308.73,
+    "protein": 11.34,
+    "carbs": 56.51,
+    "fat": 3.58
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:50",
+   "name": "Pão, glúten, forma",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 252.99,
+    "protein": 11.95,
+    "carbs": 44.12,
+    "fat": 2.73
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:51",
+   "name": "Pão, milho, forma",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 292.01,
+    "protein": 8.3,
+    "carbs": 56.4,
+    "fat": 3.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:52",
+   "name": "Pão, trigo, forma, integral",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 253.19,
+    "protein": 9.43,
+    "carbs": 49.94,
+    "fat": 3.65
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:53",
+   "name": "Pão, trigo, francês",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 299.81,
+    "protein": 7.95,
+    "carbs": 58.65,
+    "fat": 3.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:54",
+   "name": "Pão, trigo, sovado",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 310.96,
+    "protein": 8.4,
+    "carbs": 61.45,
+    "fat": 2.84
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:55",
+   "name": "Pastel, de carne, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 288.7,
+    "protein": 10.74,
+    "carbs": 42.02,
+    "fat": 8.79
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:56",
+   "name": "Pastel, de carne, frito",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 388.37,
+    "protein": 10.1,
+    "carbs": 43.77,
+    "fat": 20.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:57",
+   "name": "Pastel, de queijo, cru",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 308.47,
+    "protein": 9.85,
+    "carbs": 45.95,
+    "fat": 9.63
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:58",
+   "name": "Pastel, de queijo, frito",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 422.11,
+    "protein": 8.71,
+    "carbs": 48.13,
+    "fat": 22.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:59",
+   "name": "Pastel, massa, crua",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 310.2,
+    "protein": 6.9,
+    "carbs": 57.38,
+    "fat": 5.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:60",
+   "name": "Pastel, massa, frita",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 569.67,
+    "protein": 6.02,
+    "carbs": 49.34,
+    "fat": 40.86
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:61",
+   "name": "Pipoca, com óleo de soja, sem sal",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 448.33,
+    "protein": 9.93,
+    "carbs": 70.31,
+    "fat": 15.94
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:62",
+   "name": "Polenta, pré-cozida",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 102.74,
+    "protein": 2.29,
+    "carbs": 23.31,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:63",
+   "name": "Torrada, pão francês",
+   "category": "Cereais e derivados",
+   "per100g": {
+    "kcal": 377.42,
+    "protein": 10.52,
+    "carbs": 74.56,
+    "fat": 3.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:64",
+   "name": "Abóbora, cabotian, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 48.04,
+    "protein": 1.44,
+    "carbs": 10.76,
+    "fat": 0.73
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:65",
+   "name": "Abóbora, cabotian, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 38.6,
+    "protein": 1.75,
+    "carbs": 8.36,
+    "fat": 0.54
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:66",
+   "name": "Abóbora, menina brasileira, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.61,
+    "protein": 0.61,
+    "carbs": 3.3,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:67",
+   "name": "Abóbora, moranga, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 12.36,
+    "protein": 0.96,
+    "carbs": 2.67,
+    "fat": 0.06
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:68",
+   "name": "Abóbora, moranga, refogada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 29,
+    "protein": 0.39,
+    "carbs": 5.98,
+    "fat": 0.8
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:69",
+   "name": "Abóbora, pescoço, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 24.47,
+    "protein": 0.67,
+    "carbs": 6.12,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:70",
+   "name": "Abobrinha, italiana, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 15.04,
+    "protein": 1.13,
+    "carbs": 2.98,
+    "fat": 0.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:71",
+   "name": "Abobrinha, italiana, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 19.28,
+    "protein": 1.14,
+    "carbs": 4.29,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:72",
+   "name": "Abobrinha, italiana, refogada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 24.43,
+    "protein": 1.07,
+    "carbs": 4.19,
+    "fat": 0.82
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:73",
+   "name": "Abobrinha, paulista, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 30.81,
+    "protein": 0.64,
+    "carbs": 7.87,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:74",
+   "name": "Acelga, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 20.94,
+    "protein": 1.44,
+    "carbs": 4.63,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:75",
+   "name": "Agrião, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 16.58,
+    "protein": 2.69,
+    "carbs": 2.25,
+    "fat": 0.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:76",
+   "name": "Aipo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 19.09,
+    "protein": 0.76,
+    "carbs": 4.27,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:77",
+   "name": "Alface, americana, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 8.79,
+    "protein": 0.61,
+    "carbs": 1.75,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:78",
+   "name": "Alface, crespa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 10.68,
+    "protein": 1.35,
+    "carbs": 1.7,
+    "fat": 0.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:79",
+   "name": "Alface, lisa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.82,
+    "protein": 1.69,
+    "carbs": 2.43,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:80",
+   "name": "Alface, roxa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 12.72,
+    "protein": 0.91,
+    "carbs": 2.49,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:81",
+   "name": "Alfavaca, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 29.18,
+    "protein": 2.66,
+    "carbs": 5.24,
+    "fat": 0.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:82",
+   "name": "Alho, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 113.13,
+    "protein": 7.01,
+    "carbs": 23.91,
+    "fat": 0.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:83",
+   "name": "Alho-poró, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 31.51,
+    "protein": 1.41,
+    "carbs": 6.88,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:84",
+   "name": "Almeirão, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 18.03,
+    "protein": 1.77,
+    "carbs": 3.34,
+    "fat": 0.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:85",
+   "name": "Almeirão, refogado",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 65.08,
+    "protein": 1.7,
+    "carbs": 5.7,
+    "fat": 4.85
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:86",
+   "name": "Batata, baroa, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 80.12,
+    "protein": 0.85,
+    "carbs": 18.95,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:87",
+   "name": "Batata, baroa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 100.98,
+    "protein": 1.05,
+    "carbs": 23.98,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:88",
+   "name": "Batata, doce, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 76.76,
+    "protein": 0.64,
+    "carbs": 18.42,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:89",
+   "name": "Batata, doce, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 118.24,
+    "protein": 1.26,
+    "carbs": 28.2,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:90",
+   "name": "Batata, frita, tipo chips, industrializada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 542.73,
+    "protein": 5.58,
+    "carbs": 51.22,
+    "fat": 36.62
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:91",
+   "name": "Batata, inglesa, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 51.59,
+    "protein": 1.16,
+    "carbs": 11.94,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:92",
+   "name": "Batata, inglesa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 64.37,
+    "protein": 1.77,
+    "carbs": 14.69,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:93",
+   "name": "Batata, inglesa, frita",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 267.16,
+    "protein": 4.97,
+    "carbs": 35.64,
+    "fat": 13.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:94",
+   "name": "Batata, inglesa, sauté",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 67.89,
+    "protein": 1.29,
+    "carbs": 14.09,
+    "fat": 0.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:95",
+   "name": "Berinjela, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 18.85,
+    "protein": 0.68,
+    "carbs": 4.47,
+    "fat": 0.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:96",
+   "name": "Berinjela, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 19.63,
+    "protein": 1.22,
+    "carbs": 4.43,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:97",
+   "name": "Beterraba, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 32.15,
+    "protein": 1.29,
+    "carbs": 7.23,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:98",
+   "name": "Beterraba, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 48.83,
+    "protein": 1.95,
+    "carbs": 11.11,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:99",
+   "name": "Biscoito, polvilho doce",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 437.55,
+    "protein": 1.29,
+    "carbs": 80.54,
+    "fat": 12.25
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:100",
+   "name": "Brócolis, cozido",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 24.64,
+    "protein": 2.13,
+    "carbs": 4.37,
+    "fat": 0.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:101",
+   "name": "Brócolis, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 25.5,
+    "protein": 3.64,
+    "carbs": 4.03,
+    "fat": 0.27
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:102",
+   "name": "Cará, cozido",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 77.58,
+    "protein": 1.53,
+    "carbs": 18.85,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:103",
+   "name": "Cará, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 95.63,
+    "protein": 2.28,
+    "carbs": 22.95,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:104",
+   "name": "Caruru, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 34.03,
+    "protein": 3.2,
+    "carbs": 5.97,
+    "fat": 0.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:105",
+   "name": "Catalonha, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 23.89,
+    "protein": 1.87,
+    "carbs": 4.75,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:106",
+   "name": "Catalonha, refogada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 63.45,
+    "protein": 1.95,
+    "carbs": 4.81,
+    "fat": 4.81
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:107",
+   "name": "Cebola, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 39.42,
+    "protein": 1.71,
+    "carbs": 8.85,
+    "fat": 0.08
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:108",
+   "name": "Cebolinha, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 19.52,
+    "protein": 1.87,
+    "carbs": 3.37,
+    "fat": 0.35
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:109",
+   "name": "Cenoura, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 29.86,
+    "protein": 0.85,
+    "carbs": 6.69,
+    "fat": 0.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:110",
+   "name": "Cenoura, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 34.14,
+    "protein": 1.32,
+    "carbs": 7.66,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:111",
+   "name": "Chicória, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.84,
+    "protein": 1.14,
+    "carbs": 2.85,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:112",
+   "name": "Chuchu, cozido",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 18.54,
+    "protein": 0.41,
+    "carbs": 4.79,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:113",
+   "name": "Chuchu, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 16.98,
+    "protein": 0.7,
+    "carbs": 4.14,
+    "fat": 0.06
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:114",
+   "name": "Coentro, folhas desidratadas",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 309.07,
+    "protein": 20.88,
+    "carbs": 47.96,
+    "fat": 10.39
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:115",
+   "name": "Couve, manteiga, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 27.06,
+    "protein": 2.87,
+    "carbs": 4.33,
+    "fat": 0.55
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:116",
+   "name": "Couve, manteiga, refogada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 90.34,
+    "protein": 1.67,
+    "carbs": 8.71,
+    "fat": 6.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:117",
+   "name": "Couve-flor, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 22.56,
+    "protein": 1.91,
+    "carbs": 4.52,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:118",
+   "name": "Couve-flor, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 19.11,
+    "protein": 1.24,
+    "carbs": 3.88,
+    "fat": 0.27
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:119",
+   "name": "Espinafre, Nova Zelândia, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 16.1,
+    "protein": 2,
+    "carbs": 2.57,
+    "fat": 0.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:120",
+   "name": "Espinafre, Nova Zelândia, refogado",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 67.25,
+    "protein": 2.72,
+    "carbs": 4.24,
+    "fat": 5.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:121",
+   "name": "Farinha, de mandioca, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 360.87,
+    "protein": 1.55,
+    "carbs": 87.9,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:122",
+   "name": "Farinha, de mandioca, torrada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 365.27,
+    "protein": 1.23,
+    "carbs": 89.19,
+    "fat": 0.29
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:123",
+   "name": "Farinha, de puba",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 360.18,
+    "protein": 1.62,
+    "carbs": 87.29,
+    "fat": 0.47
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:124",
+   "name": "Fécula, de mandioca",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 330.85,
+    "protein": 0.52,
+    "carbs": 81.15,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:125",
+   "name": "Feijão, broto, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 38.72,
+    "protein": 4.17,
+    "carbs": 7.76,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:126",
+   "name": "Inhame, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 96.7,
+    "protein": 2.05,
+    "carbs": 23.23,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:127",
+   "name": "Jiló, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 27.37,
+    "protein": 1.4,
+    "carbs": 6.19,
+    "fat": 0.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:128",
+   "name": "Jurubeba, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 125.81,
+    "protein": 4.41,
+    "carbs": 23.06,
+    "fat": 3.91
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:129",
+   "name": "Mandioca, cozida",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 125.36,
+    "protein": 0.57,
+    "carbs": 30.09,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:130",
+   "name": "Mandioca, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 151.42,
+    "protein": 1.13,
+    "carbs": 36.17,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:131",
+   "name": "Mandioca, farofa, temperada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 405.69,
+    "protein": 2.06,
+    "carbs": 80.3,
+    "fat": 9.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:132",
+   "name": "Mandioca, frita",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 300.06,
+    "protein": 1.38,
+    "carbs": 50.25,
+    "fat": 11.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:133",
+   "name": "Manjericão, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 21.15,
+    "protein": 1.99,
+    "carbs": 3.64,
+    "fat": 0.39
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:134",
+   "name": "Maxixe, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.75,
+    "protein": 1.39,
+    "carbs": 2.73,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:135",
+   "name": "Mostarda, folha, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 18.11,
+    "protein": 2.11,
+    "carbs": 3.24,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:136",
+   "name": "Nhoque, batata, cozido",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 180.78,
+    "protein": 5.86,
+    "carbs": 36.78,
+    "fat": 1.94
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:137",
+   "name": "Nabo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 18.19,
+    "protein": 1.2,
+    "carbs": 4.15,
+    "fat": 0.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:138",
+   "name": "Palmito, juçara, em conserva",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 23.2,
+    "protein": 1.79,
+    "carbs": 4.33,
+    "fat": 0.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:139",
+   "name": "Palmito, pupunha, em conserva",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 29.43,
+    "protein": 2.46,
+    "carbs": 5.51,
+    "fat": 0.45
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:140",
+   "name": "Pão, de queijo, assado",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 363.08,
+    "protein": 5.12,
+    "carbs": 34.24,
+    "fat": 24.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:141",
+   "name": "Pão, de queijo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 294.54,
+    "protein": 3.65,
+    "carbs": 38.51,
+    "fat": 13.99
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:142",
+   "name": "Pepino, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 9.53,
+    "protein": 0.87,
+    "carbs": 2.04,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:143",
+   "name": "Pimentão, amarelo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 27.93,
+    "protein": 1.22,
+    "carbs": 5.96,
+    "fat": 0.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:144",
+   "name": "Pimentão, verde, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 21.29,
+    "protein": 1.05,
+    "carbs": 4.89,
+    "fat": 0.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:145",
+   "name": "Pimentão, vermelho, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 23.28,
+    "protein": 1.04,
+    "carbs": 5.47,
+    "fat": 0.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:146",
+   "name": "Polvilho, doce",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 351.23,
+    "protein": 0.43,
+    "carbs": 86.77,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:147",
+   "name": "Quiabo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 29.94,
+    "protein": 1.92,
+    "carbs": 6.37,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:148",
+   "name": "Rabanete, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.74,
+    "protein": 1.39,
+    "carbs": 2.73,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:149",
+   "name": "Repolho, branco, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 17.12,
+    "protein": 0.88,
+    "carbs": 3.86,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:150",
+   "name": "Repolho, roxo, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 30.91,
+    "protein": 1.91,
+    "carbs": 7.2,
+    "fat": 0.06
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:151",
+   "name": "Repolho, roxo, refogado",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 41.77,
+    "protein": 1.8,
+    "carbs": 7.56,
+    "fat": 1.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:152",
+   "name": "Rúcula, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 13.13,
+    "protein": 1.77,
+    "carbs": 2.22,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:153",
+   "name": "Salsa, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 33.42,
+    "protein": 3.26,
+    "carbs": 5.71,
+    "fat": 0.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:154",
+   "name": "Seleta de legumes, enlatada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 56.53,
+    "protein": 3.42,
+    "carbs": 12.67,
+    "fat": 0.35
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:155",
+   "name": "Serralha, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 30.4,
+    "protein": 2.67,
+    "carbs": 4.95,
+    "fat": 0.74
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:156",
+   "name": "Taioba, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 34.21,
+    "protein": 2.9,
+    "carbs": 5.43,
+    "fat": 0.93
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:157",
+   "name": "Tomate, com semente, cru",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 15.34,
+    "protein": 1.1,
+    "carbs": 3.14,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:158",
+   "name": "Tomate, extrato",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 60.93,
+    "protein": 2.43,
+    "carbs": 14.96,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:159",
+   "name": "Tomate, molho industrializado",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 38.45,
+    "protein": 1.38,
+    "carbs": 7.71,
+    "fat": 0.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:160",
+   "name": "Tomate, purê",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 27.94,
+    "protein": 1.36,
+    "carbs": 6.89,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:161",
+   "name": "Tomate, salada",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 20.55,
+    "protein": 0.81,
+    "carbs": 5.12,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:162",
+   "name": "Vagem, crua",
+   "category": "Verduras, hortaliças e derivados",
+   "per100g": {
+    "kcal": 24.9,
+    "protein": 1.79,
+    "carbs": 5.35,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:163",
+   "name": "Abacate, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 96.15,
+    "protein": 1.24,
+    "carbs": 6.03,
+    "fat": 8.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:164",
+   "name": "Abacaxi, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 48.32,
+    "protein": 0.86,
+    "carbs": 12.33,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:165",
+   "name": "Abacaxi, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 30.59,
+    "protein": 0.47,
+    "carbs": 7.8,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:166",
+   "name": "Abiu, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 62.42,
+    "protein": 0.83,
+    "carbs": 14.93,
+    "fat": 0.7
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:167",
+   "name": "Açaí, polpa, com xarope de guaraná e glucose",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 110.3,
+    "protein": 0.72,
+    "carbs": 21.46,
+    "fat": 3.66
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:168",
+   "name": "Açaí, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 58.05,
+    "protein": 0.8,
+    "carbs": 6.21,
+    "fat": 3.94
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:169",
+   "name": "Acerola, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 33.46,
+    "protein": 0.91,
+    "carbs": 7.97,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:170",
+   "name": "Acerola, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 21.94,
+    "protein": 0.59,
+    "carbs": 5.54,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:171",
+   "name": "Ameixa, calda, enlatada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 182.85,
+    "protein": 0.41,
+    "carbs": 46.89,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:172",
+   "name": "Ameixa, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 52.54,
+    "protein": 0.77,
+    "carbs": 13.85,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:173",
+   "name": "Ameixa, em calda, enlatada, drenada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 177.36,
+    "protein": 1.02,
+    "carbs": 47.66,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:174",
+   "name": "Atemóia, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 96.97,
+    "protein": 0.97,
+    "carbs": 25.33,
+    "fat": 0.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:175",
+   "name": "Banana, da terra, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 128.02,
+    "protein": 1.43,
+    "carbs": 33.67,
+    "fat": 0.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:176",
+   "name": "Banana, doce em barra",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 280.11,
+    "protein": 2.17,
+    "carbs": 75.67,
+    "fat": 0.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:177",
+   "name": "Banana, figo, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 105.08,
+    "protein": 1.13,
+    "carbs": 27.8,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:178",
+   "name": "Banana, maçã, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 86.81,
+    "protein": 1.75,
+    "carbs": 22.34,
+    "fat": 0.06
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:179",
+   "name": "Banana, nanica, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 91.53,
+    "protein": 1.4,
+    "carbs": 23.85,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:180",
+   "name": "Banana, ouro, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 112.37,
+    "protein": 1.48,
+    "carbs": 29.34,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:181",
+   "name": "Banana, pacova, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 77.91,
+    "protein": 1.23,
+    "carbs": 20.31,
+    "fat": 0.08
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:182",
+   "name": "Banana, prata, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 98.25,
+    "protein": 1.27,
+    "carbs": 25.96,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:183",
+   "name": "Cacau, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 74.29,
+    "protein": 0.95,
+    "carbs": 19.41,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:184",
+   "name": "Cajá-Manga, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.58,
+    "protein": 1.28,
+    "carbs": 11.43,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:185",
+   "name": "Cajá, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 26.33,
+    "protein": 0.59,
+    "carbs": 6.37,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:186",
+   "name": "Caju, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 43.07,
+    "protein": 0.97,
+    "carbs": 10.29,
+    "fat": 0.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:187",
+   "name": "Caju, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.57,
+    "protein": 0.48,
+    "carbs": 9.35,
+    "fat": 0.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:188",
+   "name": "Caju, suco concentrado, envasado",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.11,
+    "protein": 0.4,
+    "carbs": 10.73,
+    "fat": 0.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:189",
+   "name": "Caqui, chocolate, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 71.35,
+    "protein": 0.36,
+    "carbs": 19.33,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:190",
+   "name": "Carambola, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.74,
+    "protein": 0.87,
+    "carbs": 11.48,
+    "fat": 0.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:191",
+   "name": "Ciriguela, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 75.59,
+    "protein": 1.4,
+    "carbs": 18.86,
+    "fat": 0.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:192",
+   "name": "Cupuaçu, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 49.42,
+    "protein": 1.16,
+    "carbs": 10.43,
+    "fat": 0.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:193",
+   "name": "Cupuaçu, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 48.8,
+    "protein": 0.84,
+    "carbs": 11.39,
+    "fat": 0.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:194",
+   "name": "Figo, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 41.45,
+    "protein": 0.97,
+    "carbs": 10.25,
+    "fat": 0.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:195",
+   "name": "Figo, enlatado, em calda",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 184.36,
+    "protein": 0.56,
+    "carbs": 50.34,
+    "fat": 0.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:196",
+   "name": "Fruta-pão, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 67.05,
+    "protein": 1.08,
+    "carbs": 17.17,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:197",
+   "name": "Goiaba, branca, com casca, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 51.74,
+    "protein": 0.9,
+    "carbs": 12.4,
+    "fat": 0.49
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:198",
+   "name": "Goiaba, doce em pasta",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 268.96,
+    "protein": 0.58,
+    "carbs": 74.12,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:199",
+   "name": "Goiaba, doce, cascão",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 285.59,
+    "protein": 0.41,
+    "carbs": 78.7,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:200",
+   "name": "Goiaba, vermelha, com casca, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 54.17,
+    "protein": 1.09,
+    "carbs": 13.01,
+    "fat": 0.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:201",
+   "name": "Graviola, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 61.62,
+    "protein": 0.85,
+    "carbs": 15.84,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:202",
+   "name": "Graviola, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 38.27,
+    "protein": 0.57,
+    "carbs": 9.78,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:203",
+   "name": "Jabuticaba, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 58.05,
+    "protein": 0.61,
+    "carbs": 15.26,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:204",
+   "name": "Jaca, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 87.92,
+    "protein": 1.4,
+    "carbs": 22.5,
+    "fat": 0.27
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:205",
+   "name": "Jambo, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 26.91,
+    "protein": 0.89,
+    "carbs": 6.49,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:206",
+   "name": "Jamelão, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 41.01,
+    "protein": 0.55,
+    "carbs": 10.63,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:207",
+   "name": "Kiwi, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 51.14,
+    "protein": 1.34,
+    "carbs": 11.5,
+    "fat": 0.63
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:208",
+   "name": "Laranja, baía, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.44,
+    "protein": 0.98,
+    "carbs": 11.47,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:209",
+   "name": "Laranja, baía, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.65,
+    "protein": 0.65,
+    "carbs": 8.7,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:210",
+   "name": "Laranja, da terra, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 51.47,
+    "protein": 1.08,
+    "carbs": 12.86,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:211",
+   "name": "Laranja, da terra, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 40.96,
+    "protein": 0.67,
+    "carbs": 9.57,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:212",
+   "name": "Laranja, lima, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.7,
+    "protein": 1.06,
+    "carbs": 11.53,
+    "fat": 0.08
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:213",
+   "name": "Laranja, lima, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 39.34,
+    "protein": 0.71,
+    "carbs": 9.17,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:214",
+   "name": "Laranja, pêra, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.77,
+    "protein": 1.04,
+    "carbs": 8.95,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:215",
+   "name": "Laranja, pêra, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 32.71,
+    "protein": 0.74,
+    "carbs": 7.55,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:216",
+   "name": "Laranja, valência, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 46.11,
+    "protein": 0.77,
+    "carbs": 11.72,
+    "fat": 0.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:217",
+   "name": "Laranja, valência, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.2,
+    "protein": 0.48,
+    "carbs": 8.55,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:218",
+   "name": "Limão, cravo, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 14.1,
+    "protein": 0.33,
+    "carbs": 5.25,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:219",
+   "name": "Limão, galego, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 22.23,
+    "protein": 0.57,
+    "carbs": 7.32,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:220",
+   "name": "Limão, tahiti, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 31.82,
+    "protein": 0.94,
+    "carbs": 11.08,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:221",
+   "name": "Maçã, Argentina, com casca, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 62.53,
+    "protein": 0.23,
+    "carbs": 16.59,
+    "fat": 0.25
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:222",
+   "name": "Maçã, Fuji, com casca, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 55.52,
+    "protein": 0.29,
+    "carbs": 15.15,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:223",
+   "name": "Macaúba, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 404.28,
+    "protein": 2.08,
+    "carbs": 13.95,
+    "fat": 40.66
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:224",
+   "name": "Mamão, doce em calda, drenado",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 195.63,
+    "protein": 0.19,
+    "carbs": 54,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:225",
+   "name": "Mamão, Formosa, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 45.34,
+    "protein": 0.82,
+    "carbs": 11.55,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:226",
+   "name": "Mamão, Papaia, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 40.16,
+    "protein": 0.46,
+    "carbs": 10.44,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:227",
+   "name": "Mamão verde, doce em calda, drenado",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 209.38,
+    "protein": 0.32,
+    "carbs": 57.64,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:228",
+   "name": "Manga, Haden, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 63.5,
+    "protein": 0.41,
+    "carbs": 16.66,
+    "fat": 0.26
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:229",
+   "name": "Manga, Palmer, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 72.49,
+    "protein": 0.41,
+    "carbs": 19.35,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:230",
+   "name": "Manga, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 48.31,
+    "protein": 0.38,
+    "carbs": 12.52,
+    "fat": 0.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:231",
+   "name": "Manga, Tommy Atkins, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 50.69,
+    "protein": 0.86,
+    "carbs": 12.77,
+    "fat": 0.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:232",
+   "name": "Maracujá, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 68.44,
+    "protein": 1.99,
+    "carbs": 12.26,
+    "fat": 2.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:233",
+   "name": "Maracujá, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 38.76,
+    "protein": 0.81,
+    "carbs": 9.6,
+    "fat": 0.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:234",
+   "name": "Maracujá, suco concentrado, envasado",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 41.97,
+    "protein": 0.77,
+    "carbs": 9.64,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:235",
+   "name": "Melancia, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 32.61,
+    "protein": 0.88,
+    "carbs": 8.14,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:236",
+   "name": "Melão, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 29.37,
+    "protein": 0.68,
+    "carbs": 7.53,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:237",
+   "name": "Mexerica, Murcote, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 57.59,
+    "protein": 0.88,
+    "carbs": 14.86,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:238",
+   "name": "Mexerica, Rio, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.87,
+    "protein": 0.65,
+    "carbs": 9.34,
+    "fat": 0.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:239",
+   "name": "Morango, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 30.15,
+    "protein": 0.89,
+    "carbs": 6.82,
+    "fat": 0.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:240",
+   "name": "Nêspera, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 42.54,
+    "protein": 0.31,
+    "carbs": 11.53,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:241",
+   "name": "Pequi, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 204.97,
+    "protein": 2.34,
+    "carbs": 12.97,
+    "fat": 17.97
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:242",
+   "name": "Pêra, Park, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 60.59,
+    "protein": 0.24,
+    "carbs": 16.07,
+    "fat": 0.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:243",
+   "name": "Pêra, Williams, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 53.31,
+    "protein": 0.57,
+    "carbs": 14.02,
+    "fat": 0.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:244",
+   "name": "Pêssego, Aurora, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.33,
+    "protein": 0.83,
+    "carbs": 9.32,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:245",
+   "name": "Pêssego, enlatado, em calda",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 63.14,
+    "protein": 0.71,
+    "carbs": 16.88,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:246",
+   "name": "Pinha, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 88.47,
+    "protein": 1.49,
+    "carbs": 22.45,
+    "fat": 0.32
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:247",
+   "name": "Pitanga, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 41.42,
+    "protein": 0.93,
+    "carbs": 10.24,
+    "fat": 0.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:248",
+   "name": "Pitanga, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 19.11,
+    "protein": 0.29,
+    "carbs": 4.76,
+    "fat": 0.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:249",
+   "name": "Romã, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 55.74,
+    "protein": 0.4,
+    "carbs": 15.11,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:250",
+   "name": "Tamarindo, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 275.7,
+    "protein": 3.21,
+    "carbs": 72.53,
+    "fat": 0.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:251",
+   "name": "Tangerina, Poncã, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 37.83,
+    "protein": 0.85,
+    "carbs": 9.61,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:252",
+   "name": "Tangerina, Poncã, suco",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 36.11,
+    "protein": 0.52,
+    "carbs": 8.8,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:253",
+   "name": "Tucumã, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 262.02,
+    "protein": 2.09,
+    "carbs": 26.47,
+    "fat": 19.08
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:254",
+   "name": "Umbu, cru",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 37.02,
+    "protein": 0.84,
+    "carbs": 9.4,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:255",
+   "name": "Umbu, polpa, congelada",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 33.94,
+    "protein": 0.51,
+    "carbs": 8.79,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:256",
+   "name": "Uva, Itália, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 52.87,
+    "protein": 0.75,
+    "carbs": 13.57,
+    "fat": 0.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:257",
+   "name": "Uva, Rubi, crua",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 49.06,
+    "protein": 0.61,
+    "carbs": 12.7,
+    "fat": 0.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:258",
+   "name": "Uva, suco concentrado, envasado",
+   "category": "Frutas e derivados",
+   "per100g": {
+    "kcal": 57.66,
+    "protein": 0,
+    "carbs": 14.71,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:259",
+   "name": "Azeite, de dendê",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:260",
+   "name": "Azeite, de oliva, extra virgem",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:261",
+   "name": "Manteiga, com sal",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 725.97,
+    "protein": 0.41,
+    "carbs": 0.06,
+    "fat": 82.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:262",
+   "name": "Manteiga, sem sal",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 757.54,
+    "protein": 0.4,
+    "carbs": 0,
+    "fat": 86.04
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:263",
+   "name": "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 596.12,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 67.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:264",
+   "name": "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 722.53,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 81.73
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:265",
+   "name": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 594.45,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 67.25
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:266",
+   "name": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 593.14,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 67.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:267",
+   "name": "Óleo, de babaçu",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:268",
+   "name": "Óleo, de canola",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:269",
+   "name": "Óleo, de girassol",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:270",
+   "name": "Óleo, de milho",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:271",
+   "name": "Óleo, de pequi",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:272",
+   "name": "Óleo, de soja",
+   "category": "Gorduras e óleos",
+   "per100g": {
+    "kcal": 884,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:273",
+   "name": "Abadejo, filé, congelado, assado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 111.62,
+    "protein": 23.53,
+    "carbs": 0,
+    "fat": 1.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:274",
+   "name": "Abadejo, filé, congelado,cozido",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 91.1,
+    "protein": 19.35,
+    "carbs": 0,
+    "fat": 0.94
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:275",
+   "name": "Abadejo, filé, congelado, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 59.11,
+    "protein": 13.08,
+    "carbs": 0,
+    "fat": 0.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:276",
+   "name": "Abadejo, filé, congelado, grelhado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 129.64,
+    "protein": 27.61,
+    "carbs": 0,
+    "fat": 1.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:277",
+   "name": "Atum, conserva em óleo",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 165.91,
+    "protein": 26.19,
+    "carbs": 0,
+    "fat": 6
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:278",
+   "name": "Atum, fresco, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 117.5,
+    "protein": 25.68,
+    "carbs": 0,
+    "fat": 0.87
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:279",
+   "name": "Bacalhau, salgado, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 135.89,
+    "protein": 29.04,
+    "carbs": 0,
+    "fat": 1.32
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:280",
+   "name": "Bacalhau, salgado, refogado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 139.66,
+    "protein": 23.98,
+    "carbs": 1.22,
+    "fat": 3.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:281",
+   "name": "Cação, posta, com farinha de trigo, frita",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 208.33,
+    "protein": 24.95,
+    "carbs": 3.1,
+    "fat": 9.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:282",
+   "name": "Cação, posta, cozida",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 116.01,
+    "protein": 25.59,
+    "carbs": 0,
+    "fat": 0.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:283",
+   "name": "Cação, posta, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 83.33,
+    "protein": 17.85,
+    "carbs": 0,
+    "fat": 0.79
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:284",
+   "name": "Camarão, Rio Grande, grande, cozido",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 90.01,
+    "protein": 18.97,
+    "carbs": 0,
+    "fat": 1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:285",
+   "name": "Camarão, Rio Grande, grande, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 47.18,
+    "protein": 9.99,
+    "carbs": 0,
+    "fat": 0.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:286",
+   "name": "Camarão, Sete Barbas, sem cabeça, com casca, frito",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 231.25,
+    "protein": 18.39,
+    "carbs": 2.88,
+    "fat": 15.62
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:287",
+   "name": "Caranguejo, cozido",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 82.72,
+    "protein": 18.48,
+    "carbs": 0,
+    "fat": 0.42
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:288",
+   "name": "Corimba, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 128.16,
+    "protein": 17.37,
+    "carbs": 0,
+    "fat": 5.99
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:289",
+   "name": "Corimbatá, assado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 261.45,
+    "protein": 19.9,
+    "carbs": 0,
+    "fat": 19.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:290",
+   "name": "Corimbatá, cozido",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 238.7,
+    "protein": 20.13,
+    "carbs": 0,
+    "fat": 16.93
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:291",
+   "name": "Corvina de água doce, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 101.01,
+    "protein": 18.92,
+    "carbs": 0,
+    "fat": 2.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:292",
+   "name": "Corvina do mar, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 94,
+    "protein": 18.57,
+    "carbs": 0,
+    "fat": 1.58
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:293",
+   "name": "Corvina grande, assada",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 146.53,
+    "protein": 26.77,
+    "carbs": 0,
+    "fat": 3.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:294",
+   "name": "Corvina grande, cozida",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 100.08,
+    "protein": 23.44,
+    "carbs": 0,
+    "fat": 2.56
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:295",
+   "name": "Dourada de água doce, fresca",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 131.21,
+    "protein": 18.81,
+    "carbs": 0,
+    "fat": 5.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:296",
+   "name": "Lambari, congelado, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 130.84,
+    "protein": 16.81,
+    "carbs": 0,
+    "fat": 6.55
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:297",
+   "name": "Lambari, congelado, frito",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 326.87,
+    "protein": 28.43,
+    "carbs": 0,
+    "fat": 22.78
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:298",
+   "name": "Lambari, fresco, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 151.6,
+    "protein": 15.65,
+    "carbs": 0,
+    "fat": 9.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:299",
+   "name": "Manjuba, com farinha de trigo, frita",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 343.55,
+    "protein": 23.45,
+    "carbs": 10.24,
+    "fat": 22.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:300",
+   "name": "Manjuba, frita",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 349.33,
+    "protein": 30.14,
+    "carbs": 0,
+    "fat": 24.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:301",
+   "name": "Merluza, filé, assado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 121.91,
+    "protein": 26.6,
+    "carbs": 0,
+    "fat": 0.92
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:302",
+   "name": "Merluza, filé, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 89.13,
+    "protein": 16.61,
+    "carbs": 0,
+    "fat": 2.02
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:303",
+   "name": "Merluza, filé, frito",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 191.63,
+    "protein": 26.93,
+    "carbs": 0,
+    "fat": 8.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:304",
+   "name": "Pescada, branca, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 110.88,
+    "protein": 16.26,
+    "carbs": 0,
+    "fat": 4.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:305",
+   "name": "Pescada, branca, frita",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 223.04,
+    "protein": 27.36,
+    "carbs": 0,
+    "fat": 11.78
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:306",
+   "name": "Pescada, filé, com farinha de trigo, frito",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 283.43,
+    "protein": 21.44,
+    "carbs": 5.03,
+    "fat": 19.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:307",
+   "name": "Pescada, filé, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 107.21,
+    "protein": 16.65,
+    "carbs": 0,
+    "fat": 4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:308",
+   "name": "Pescada, filé, frito",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 154.27,
+    "protein": 28.59,
+    "carbs": 0,
+    "fat": 3.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:309",
+   "name": "Pescada, filé, molho escabeche",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 141.96,
+    "protein": 11.75,
+    "carbs": 5.02,
+    "fat": 8.02
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:310",
+   "name": "Pescadinha, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 76.41,
+    "protein": 15.48,
+    "carbs": 0,
+    "fat": 1.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:311",
+   "name": "Pintado, assado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 191.56,
+    "protein": 36.45,
+    "carbs": 0,
+    "fat": 3.98
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:312",
+   "name": "Pintado, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 91.08,
+    "protein": 18.56,
+    "carbs": 0,
+    "fat": 1.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:313",
+   "name": "Pintado, grelhado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 152.19,
+    "protein": 30.8,
+    "carbs": 0,
+    "fat": 2.29
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:314",
+   "name": "Porquinho, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 93.02,
+    "protein": 20.49,
+    "carbs": 0,
+    "fat": 0.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:315",
+   "name": "Salmão, filé, com pele, fresco, grelhado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 228.73,
+    "protein": 23.92,
+    "carbs": 0,
+    "fat": 14.04
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:316",
+   "name": "Salmão, sem pele, fresco, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 169.78,
+    "protein": 19.25,
+    "carbs": 0,
+    "fat": 9.71
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:317",
+   "name": "Salmão, sem pele, fresco, grelhado",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 242.71,
+    "protein": 26.14,
+    "carbs": 0,
+    "fat": 14.53
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:318",
+   "name": "Sardinha, assada",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 164.35,
+    "protein": 32.18,
+    "carbs": 0,
+    "fat": 2.99
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:319",
+   "name": "Sardinha, conserva em óleo",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 284.98,
+    "protein": 15.94,
+    "carbs": 0,
+    "fat": 24.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:320",
+   "name": "Sardinha, frita",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 257.04,
+    "protein": 33.38,
+    "carbs": 0,
+    "fat": 12.69
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:321",
+   "name": "Sardinha, inteira, crua",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 113.9,
+    "protein": 21.08,
+    "carbs": 0,
+    "fat": 2.65
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:322",
+   "name": "Tucunaré, filé, congelado, cru",
+   "category": "Pescados e frutos do mar",
+   "per100g": {
+    "kcal": 87.69,
+    "protein": 17.96,
+    "carbs": 0,
+    "fat": 1.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:323",
+   "name": "Apresuntado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 128.86,
+    "protein": 13.45,
+    "carbs": 2.86,
+    "fat": 6.69
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:324",
+   "name": "Caldo de carne, tablete",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 240.62,
+    "protein": 7.82,
+    "carbs": 15.05,
+    "fat": 16.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:325",
+   "name": "Caldo de galinha, tablete",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 251.45,
+    "protein": 6.28,
+    "carbs": 10.65,
+    "fat": 20.42
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:326",
+   "name": "Carne, bovina, acém, moído, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 212.42,
+    "protein": 26.69,
+    "carbs": 0,
+    "fat": 10.92
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:327",
+   "name": "Carne, bovina, acém, moído, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 136.56,
+    "protein": 19.42,
+    "carbs": 0,
+    "fat": 5.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:328",
+   "name": "Carne, bovina, acém, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 214.61,
+    "protein": 27.27,
+    "carbs": 0,
+    "fat": 10.88
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:329",
+   "name": "Carne, bovina, acém, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 144.03,
+    "protein": 20.82,
+    "carbs": 0,
+    "fat": 6.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:330",
+   "name": "Carne, bovina, almôndegas, cruas",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 189.26,
+    "protein": 12.31,
+    "carbs": 9.79,
+    "fat": 11.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:331",
+   "name": "Carne, bovina, almôndegas, fritas",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 271.81,
+    "protein": 18.16,
+    "carbs": 14.29,
+    "fat": 15.78
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:332",
+   "name": "Carne, bovina, bucho, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 133.02,
+    "protein": 21.64,
+    "carbs": 0,
+    "fat": 4.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:333",
+   "name": "Carne, bovina, bucho, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 137.3,
+    "protein": 20.53,
+    "carbs": 0,
+    "fat": 5.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:334",
+   "name": "Carne, bovina, capa de contra-filé, com gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 216.91,
+    "protein": 19.2,
+    "carbs": 0,
+    "fat": 14.96
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:335",
+   "name": "Carne, bovina, capa de contra-filé, com gordura, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 311.7,
+    "protein": 30.69,
+    "carbs": 0,
+    "fat": 20.03
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:336",
+   "name": "Carne, bovina, capa de contra-filé, sem gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 131.06,
+    "protein": 21.54,
+    "carbs": 0,
+    "fat": 4.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:337",
+   "name": "Carne, bovina, capa de contra-filé, sem gordura, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 239.44,
+    "protein": 35.06,
+    "carbs": 0,
+    "fat": 9.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:338",
+   "name": "Carne, bovina, charque, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 262.78,
+    "protein": 36.36,
+    "carbs": 0,
+    "fat": 11.92
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:339",
+   "name": "Carne, bovina, charque, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 248.86,
+    "protein": 22.71,
+    "carbs": 0,
+    "fat": 16.84
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:340",
+   "name": "Carne, bovina, contra-filé, à milanesa",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 351.59,
+    "protein": 20.61,
+    "carbs": 12.17,
+    "fat": 24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:341",
+   "name": "Carne, bovina, contra-filé de costela, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 202.44,
+    "protein": 19.8,
+    "carbs": 0,
+    "fat": 13.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:342",
+   "name": "Carne, bovina, contra-filé de costela, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 274.91,
+    "protein": 29.88,
+    "carbs": 0,
+    "fat": 16.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:343",
+   "name": "Carne, bovina, contra-filé, com gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 205.86,
+    "protein": 21.15,
+    "carbs": 0,
+    "fat": 12.81
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:344",
+   "name": "Carne, bovina, contra-filé, com gordura, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 278.05,
+    "protein": 32.4,
+    "carbs": 0,
+    "fat": 15.49
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:345",
+   "name": "Carne, bovina, contra-filé, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 156.62,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 6
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:346",
+   "name": "Carne, bovina, contra-filé, sem gordura, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 193.69,
+    "protein": 35.88,
+    "carbs": 0,
+    "fat": 4.49
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:347",
+   "name": "Carne, bovina, costela, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 373.04,
+    "protein": 28.81,
+    "carbs": 0,
+    "fat": 27.72
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:348",
+   "name": "Carne, bovina, costela, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 357.72,
+    "protein": 16.71,
+    "carbs": 0,
+    "fat": 31.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:349",
+   "name": "Carne, bovina, coxão duro, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 216.62,
+    "protein": 31.88,
+    "carbs": 0,
+    "fat": 8.92
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:350",
+   "name": "Carne, bovina, coxão duro, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 147.97,
+    "protein": 21.51,
+    "carbs": 0,
+    "fat": 6.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:351",
+   "name": "Carne, bovina, coxão mole, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 218.68,
+    "protein": 32.38,
+    "carbs": 0,
+    "fat": 8.91
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:352",
+   "name": "Carne, bovina, coxão mole, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 169.07,
+    "protein": 21.23,
+    "carbs": 0,
+    "fat": 8.69
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:353",
+   "name": "Carne, bovina, cupim, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 330.1,
+    "protein": 28.63,
+    "carbs": 0,
+    "fat": 23.04
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:354",
+   "name": "Carne, bovina, cupim, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 221.4,
+    "protein": 19.54,
+    "carbs": 0,
+    "fat": 15.3
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:355",
+   "name": "Carne, bovina, fígado, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 141.05,
+    "protein": 20.71,
+    "carbs": 1.11,
+    "fat": 5.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:356",
+   "name": "Carne, bovina, fígado, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 225.03,
+    "protein": 29.86,
+    "carbs": 4.2,
+    "fat": 9.01
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:357",
+   "name": "Carne, bovina, filé mingnon, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 142.86,
+    "protein": 21.6,
+    "carbs": 0,
+    "fat": 5.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:358",
+   "name": "Carne, bovina, filé mingnon, sem gordura, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 219.7,
+    "protein": 32.8,
+    "carbs": 0,
+    "fat": 8.83
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:359",
+   "name": "Carne, bovina, flanco, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 195.58,
+    "protein": 29.38,
+    "carbs": 0,
+    "fat": 7.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:360",
+   "name": "Carne, bovina, flanco, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 141.46,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 6.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:361",
+   "name": "Carne, bovina, fraldinha, com gordura, cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 338.45,
+    "protein": 24.24,
+    "carbs": 0,
+    "fat": 26.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:362",
+   "name": "Carne, bovina, fraldinha, com gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 220.72,
+    "protein": 17.58,
+    "carbs": 0,
+    "fat": 16.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:363",
+   "name": "Carne, bovina, lagarto, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 222.47,
+    "protein": 32.86,
+    "carbs": 0,
+    "fat": 9.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:364",
+   "name": "Carne, bovina, lagarto, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 134.86,
+    "protein": 20.54,
+    "carbs": 0,
+    "fat": 5.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:365",
+   "name": "Carne, bovina, língua, cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 314.9,
+    "protein": 21.37,
+    "carbs": 0,
+    "fat": 24.8
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:366",
+   "name": "Carne, bovina, língua, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 215.25,
+    "protein": 17.09,
+    "carbs": 0,
+    "fat": 15.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:367",
+   "name": "Carne, bovina, maminha, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 152.77,
+    "protein": 20.93,
+    "carbs": 0,
+    "fat": 7.03
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:368",
+   "name": "Carne, bovina, maminha, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 153.09,
+    "protein": 30.74,
+    "carbs": 0,
+    "fat": 2.42
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:369",
+   "name": "Carne, bovina, miolo de alcatra, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 162.87,
+    "protein": 21.61,
+    "carbs": 0,
+    "fat": 7.83
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:370",
+   "name": "Carne, bovina, miolo de alcatra, sem gordura, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 241.36,
+    "protein": 31.93,
+    "carbs": 0,
+    "fat": 11.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:371",
+   "name": "Carne, bovina, músculo, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 193.8,
+    "protein": 31.23,
+    "carbs": 0,
+    "fat": 6.7
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:372",
+   "name": "Carne, bovina, músculo, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 141.58,
+    "protein": 21.56,
+    "carbs": 0,
+    "fat": 5.49
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:373",
+   "name": "Carne, bovina, paleta, com gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 158.71,
+    "protein": 21.41,
+    "carbs": 0,
+    "fat": 7.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:374",
+   "name": "Carne, bovina, paleta, sem gordura, cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 193.65,
+    "protein": 29.72,
+    "carbs": 0,
+    "fat": 7.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:375",
+   "name": "Carne, bovina, paleta, sem gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 140.94,
+    "protein": 21.03,
+    "carbs": 0,
+    "fat": 5.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:376",
+   "name": "Carne, bovina, patinho, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 133.47,
+    "protein": 21.72,
+    "carbs": 0,
+    "fat": 4.51
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:377",
+   "name": "Carne, bovina, patinho, sem gordura, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 219.26,
+    "protein": 35.9,
+    "carbs": 0,
+    "fat": 7.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:378",
+   "name": "Carne, bovina, peito, sem gordura, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 338.47,
+    "protein": 22.25,
+    "carbs": 0,
+    "fat": 26.99
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:379",
+   "name": "Carne, bovina, peito, sem gordura, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 259.28,
+    "protein": 17.56,
+    "carbs": 0,
+    "fat": 20.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:380",
+   "name": "Carne, bovina, picanha, com gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 212.88,
+    "protein": 18.82,
+    "carbs": 0,
+    "fat": 14.69
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:381",
+   "name": "Carne, bovina, picanha, com gordura, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 288.77,
+    "protein": 26.42,
+    "carbs": 0,
+    "fat": 19.51
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:382",
+   "name": "Carne, bovina, picanha, sem gordura, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 133.52,
+    "protein": 21.25,
+    "carbs": 0,
+    "fat": 4.74
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:383",
+   "name": "Carne, bovina, picanha, sem gordura, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 238.47,
+    "protein": 31.91,
+    "carbs": 0,
+    "fat": 11.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:384",
+   "name": "Carne, bovina, seca, cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 312.8,
+    "protein": 26.93,
+    "carbs": 0,
+    "fat": 21.93
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:385",
+   "name": "Carne, bovina, seca, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 312.75,
+    "protein": 19.66,
+    "carbs": 0,
+    "fat": 25.37
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:386",
+   "name": "Coxinha de frango, frita",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 283.05,
+    "protein": 9.61,
+    "carbs": 34.52,
+    "fat": 11.84
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:387",
+   "name": "Croquete, de carne, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 245.77,
+    "protein": 12.04,
+    "carbs": 13.95,
+    "fat": 15.56
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:388",
+   "name": "Croquete, de carne, frito",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 346.74,
+    "protein": 16.86,
+    "carbs": 18.15,
+    "fat": 22.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:389",
+   "name": "Empada de frango, pré-cozida, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 358.19,
+    "protein": 6.94,
+    "carbs": 47.49,
+    "fat": 15.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:390",
+   "name": "Empada, de frango, pré-cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 377.48,
+    "protein": 7.34,
+    "carbs": 35.53,
+    "fat": 22.89
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:391",
+   "name": "Frango, asa, com pele, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 213.19,
+    "protein": 18.1,
+    "carbs": 0,
+    "fat": 15.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:392",
+   "name": "Frango, caipira, inteiro, com pele, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 242.89,
+    "protein": 23.88,
+    "carbs": 0,
+    "fat": 15.62
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:393",
+   "name": "Frango, caipira, inteiro, sem pele, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 195.76,
+    "protein": 29.58,
+    "carbs": 0,
+    "fat": 7.7
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:394",
+   "name": "Frango, coração, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 221.5,
+    "protein": 12.58,
+    "carbs": 0,
+    "fat": 18.6
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:395",
+   "name": "Frango, coração, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 207.27,
+    "protein": 22.44,
+    "carbs": 0.61,
+    "fat": 12.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:396",
+   "name": "Frango, coxa, com pele, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 215.12,
+    "protein": 28.49,
+    "carbs": 0.06,
+    "fat": 10.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:397",
+   "name": "Frango, coxa, com pele, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 161.47,
+    "protein": 17.09,
+    "carbs": 0,
+    "fat": 9.81
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:398",
+   "name": "Frango, coxa, sem pele, cozida",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 167.43,
+    "protein": 26.86,
+    "carbs": 0,
+    "fat": 5.85
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:399",
+   "name": "Frango, coxa, sem pele, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 119.95,
+    "protein": 17.81,
+    "carbs": 0.02,
+    "fat": 4.86
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:400",
+   "name": "Frango, fígado, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 106.48,
+    "protein": 17.59,
+    "carbs": 0,
+    "fat": 3.49
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:401",
+   "name": "Frango, filé, à milanesa",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 220.87,
+    "protein": 28.46,
+    "carbs": 7.51,
+    "fat": 7.79
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:402",
+   "name": "Frango, inteiro, com pele, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 226.32,
+    "protein": 16.44,
+    "carbs": 0,
+    "fat": 17.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:403",
+   "name": "Frango, inteiro, sem pele, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 187.34,
+    "protein": 28.03,
+    "carbs": 0,
+    "fat": 7.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:404",
+   "name": "Frango, inteiro, sem pele, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 170.39,
+    "protein": 24.99,
+    "carbs": 0,
+    "fat": 7.06
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:405",
+   "name": "Frango, inteiro, sem pele, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 129.1,
+    "protein": 20.59,
+    "carbs": 0,
+    "fat": 4.57
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:406",
+   "name": "Frango, peito, com pele, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 211.68,
+    "protein": 33.42,
+    "carbs": 0,
+    "fat": 7.65
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:407",
+   "name": "Frango, peito, com pele, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 149.47,
+    "protein": 20.78,
+    "carbs": 0,
+    "fat": 6.73
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:408",
+   "name": "Frango, peito, sem pele, cozido",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 162.87,
+    "protein": 31.47,
+    "carbs": 0,
+    "fat": 3.16
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:409",
+   "name": "Frango, peito, sem pele, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 119.16,
+    "protein": 21.53,
+    "carbs": 0,
+    "fat": 3.02
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:410",
+   "name": "Frango, peito, sem pele, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 159.19,
+    "protein": 32.03,
+    "carbs": 0,
+    "fat": 2.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:411",
+   "name": "Frango, sobrecoxa, com pele, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 259.6,
+    "protein": 28.7,
+    "carbs": 0,
+    "fat": 15.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:412",
+   "name": "Frango, sobrecoxa, com pele, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 254.53,
+    "protein": 15.46,
+    "carbs": 0,
+    "fat": 20.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:413",
+   "name": "Frango, sobrecoxa, sem pele, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 232.88,
+    "protein": 29.18,
+    "carbs": 0,
+    "fat": 12.01
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:414",
+   "name": "Frango, sobrecoxa, sem pele, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 161.8,
+    "protein": 17.57,
+    "carbs": 0,
+    "fat": 9.62
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:415",
+   "name": "Hambúrguer, bovino, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 214.84,
+    "protein": 13.16,
+    "carbs": 4.15,
+    "fat": 16.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:416",
+   "name": "Hambúrguer, bovino, frito",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 258.28,
+    "protein": 19.97,
+    "carbs": 6.32,
+    "fat": 17.01
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:417",
+   "name": "Hambúrguer, bovino, grelhado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 209.83,
+    "protein": 13.16,
+    "carbs": 11.33,
+    "fat": 12.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:418",
+   "name": "Lingüiça, frango, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 218.11,
+    "protein": 14.24,
+    "carbs": 0,
+    "fat": 17.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:419",
+   "name": "Lingüiça, frango, frita",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 245.46,
+    "protein": 18.32,
+    "carbs": 0,
+    "fat": 18.54
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:420",
+   "name": "Lingüiça, frango, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 243.66,
+    "protein": 18.19,
+    "carbs": 0,
+    "fat": 18.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:421",
+   "name": "Lingüiça, porco, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 227.2,
+    "protein": 16.06,
+    "carbs": 0,
+    "fat": 17.58
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:422",
+   "name": "Lingüiça, porco, frita",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 279.54,
+    "protein": 20.45,
+    "carbs": 0,
+    "fat": 21.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:423",
+   "name": "Lingüiça, porco, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 296.49,
+    "protein": 23.17,
+    "carbs": 0,
+    "fat": 21.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:424",
+   "name": "Mortadela",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 268.82,
+    "protein": 11.95,
+    "carbs": 5.82,
+    "fat": 21.65
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:425",
+   "name": "Peru, congelado, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 163.07,
+    "protein": 26.2,
+    "carbs": 0,
+    "fat": 5.68
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:426",
+   "name": "Peru, congelado, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 93.72,
+    "protein": 18.08,
+    "carbs": 0,
+    "fat": 1.83
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:427",
+   "name": "Porco, bisteca, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 164.12,
+    "protein": 21.5,
+    "carbs": 0,
+    "fat": 8.02
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:428",
+   "name": "Porco, bisteca, frita",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 311.17,
+    "protein": 33.75,
+    "carbs": 0,
+    "fat": 18.52
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:429",
+   "name": "Porco, bisteca, grelhada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 280.08,
+    "protein": 28.89,
+    "carbs": 0,
+    "fat": 17.38
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:430",
+   "name": "Porco, costela, assada",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 402.17,
+    "protein": 30.22,
+    "carbs": 0,
+    "fat": 30.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:431",
+   "name": "Porco, costela, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 255.61,
+    "protein": 18,
+    "carbs": 0,
+    "fat": 19.82
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:432",
+   "name": "Porco, lombo, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 210.23,
+    "protein": 35.73,
+    "carbs": 0,
+    "fat": 6.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:433",
+   "name": "Porco, lombo, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 175.63,
+    "protein": 22.6,
+    "carbs": 0,
+    "fat": 8.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:434",
+   "name": "Porco, orelha, salgada, crua",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 258.49,
+    "protein": 18.52,
+    "carbs": 0,
+    "fat": 19.89
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:435",
+   "name": "Porco, pernil, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 262.26,
+    "protein": 32.13,
+    "carbs": 0,
+    "fat": 13.86
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:436",
+   "name": "Porco, pernil, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 186.06,
+    "protein": 20.13,
+    "carbs": 0,
+    "fat": 11.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:437",
+   "name": "Porco, rabo, salgado, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 377.42,
+    "protein": 15.58,
+    "carbs": 0,
+    "fat": 34.47
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:438",
+   "name": "Presunto, com capa de gordura",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 127.85,
+    "protein": 14.37,
+    "carbs": 1.4,
+    "fat": 6.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:439",
+   "name": "Presunto, sem capa de gordura",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 93.74,
+    "protein": 14.29,
+    "carbs": 2.15,
+    "fat": 2.71
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:440",
+   "name": "Quibe, assado",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 136.23,
+    "protein": 14.59,
+    "carbs": 12.86,
+    "fat": 2.68
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:441",
+   "name": "Quibe, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 109.49,
+    "protein": 12.35,
+    "carbs": 10.77,
+    "fat": 1.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:442",
+   "name": "Quibe, frito",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 253.83,
+    "protein": 14.89,
+    "carbs": 12.34,
+    "fat": 15.8
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:443",
+   "name": "Salame",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 397.84,
+    "protein": 25.81,
+    "carbs": 2.91,
+    "fat": 30.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:444",
+   "name": "Toucinho, cru",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 592.53,
+    "protein": 11.48,
+    "carbs": 0,
+    "fat": 60.26
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:445",
+   "name": "Toucinho, frito",
+   "category": "Carnes e derivados",
+   "per100g": {
+    "kcal": 696.56,
+    "protein": 27.28,
+    "carbs": 0,
+    "fat": 64.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:446",
+   "name": "Bebida láctea, pêssego",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 55.16,
+    "protein": 2.13,
+    "carbs": 7.57,
+    "fat": 1.91
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:447",
+   "name": "Creme de Leite",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 221.48,
+    "protein": 1.51,
+    "carbs": 4.51,
+    "fat": 22.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:448",
+   "name": "Iogurte, natural",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 51.49,
+    "protein": 4.06,
+    "carbs": 1.92,
+    "fat": 3.04
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:449",
+   "name": "Iogurte, natural, desnatado",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 41.49,
+    "protein": 3.83,
+    "carbs": 5.77,
+    "fat": 0.32
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:451",
+   "name": "Iogurte, sabor morango",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 69.57,
+    "protein": 2.71,
+    "carbs": 9.69,
+    "fat": 2.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:452",
+   "name": "Iogurte, sabor pêssego",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 67.85,
+    "protein": 2.53,
+    "carbs": 9.43,
+    "fat": 2.34
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:453",
+   "name": "Leite, condensado",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 312.57,
+    "protein": 7.67,
+    "carbs": 57,
+    "fat": 6.74
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:454",
+   "name": "Leite, de cabra",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 66.42,
+    "protein": 3.07,
+    "carbs": 5.25,
+    "fat": 3.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:455",
+   "name": "Leite, de vaca, achocolatado",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 82.82,
+    "protein": 2.1,
+    "carbs": 14.16,
+    "fat": 2.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:456",
+   "name": "Leite, de vaca, desnatado, pó",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 361.61,
+    "protein": 34.69,
+    "carbs": 53.04,
+    "fat": 0.93
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:459",
+   "name": "Leite, de vaca, integral, pó",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 496.65,
+    "protein": 25.42,
+    "carbs": 39.18,
+    "fat": 26.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:460",
+   "name": "Leite, fermentado",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 69.62,
+    "protein": 1.89,
+    "carbs": 15.67,
+    "fat": 0.1
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:461",
+   "name": "Queijo, minas, frescal",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 264.27,
+    "protein": 17.41,
+    "carbs": 3.24,
+    "fat": 20.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:462",
+   "name": "Queijo, minas, meia cura",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 320.72,
+    "protein": 21.21,
+    "carbs": 3.57,
+    "fat": 24.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:463",
+   "name": "Queijo, mozarela",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 329.87,
+    "protein": 22.65,
+    "carbs": 3.05,
+    "fat": 25.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:464",
+   "name": "Queijo, parmesão",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 452.96,
+    "protein": 35.55,
+    "carbs": 1.66,
+    "fat": 33.53
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:465",
+   "name": "Queijo, pasteurizado",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 303.08,
+    "protein": 9.36,
+    "carbs": 5.68,
+    "fat": 27.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:466",
+   "name": "Queijo, petit suisse, morango",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 121.11,
+    "protein": 5.79,
+    "carbs": 18.46,
+    "fat": 2.84
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:467",
+   "name": "Queijo, prato",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 359.88,
+    "protein": 22.66,
+    "carbs": 1.88,
+    "fat": 29.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:468",
+   "name": "Queijo, requeijão, cremoso",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 256.58,
+    "protein": 9.63,
+    "carbs": 2.43,
+    "fat": 23.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:469",
+   "name": "Queijo, ricota",
+   "category": "Leite e derivados",
+   "per100g": {
+    "kcal": 139.73,
+    "protein": 12.6,
+    "carbs": 3.79,
+    "fat": 8.11
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:470",
+   "name": "Bebida isotônica, sabores variados",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 25.61,
+    "protein": 0,
+    "carbs": 6.4,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:471",
+   "name": "Café, infusão 10%",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 9.07,
+    "protein": 0.71,
+    "carbs": 1.48,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:473",
+   "name": "Cana, caldo de",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 65.34,
+    "protein": 0,
+    "carbs": 18.15,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:474",
+   "name": "Cerveja, pilsen",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 40.72,
+    "protein": 0.56,
+    "carbs": 3.32,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:475",
+   "name": "Chá, erva-doce, infusão 5%",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 1.4,
+    "protein": 0,
+    "carbs": 0.39,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:476",
+   "name": "Chá, mate, infusão 5%",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 2.73,
+    "protein": 0,
+    "carbs": 0.64,
+    "fat": 0.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:477",
+   "name": "Chá, preto, infusão 5%",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 2.25,
+    "protein": 0,
+    "carbs": 0.63,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:478",
+   "name": "Coco, água de",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 21.51,
+    "protein": 0,
+    "carbs": 5.28,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:479",
+   "name": "Refrigerante, tipo água tônica",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 30.78,
+    "protein": 0,
+    "carbs": 7.95,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:480",
+   "name": "Refrigerante, tipo cola",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 33.51,
+    "protein": 0,
+    "carbs": 8.66,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:481",
+   "name": "Refrigerante, tipo guaraná",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 38.7,
+    "protein": 0,
+    "carbs": 10,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:482",
+   "name": "Refrigerante, tipo laranja",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 45.63,
+    "protein": 0,
+    "carbs": 11.79,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:483",
+   "name": "Refrigerante, tipo limão",
+   "category": "Bebidas (alcoólicas e não alcoólicas)",
+   "per100g": {
+    "kcal": 39.72,
+    "protein": 0,
+    "carbs": 10.26,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:484",
+   "name": "Omelete, de queijo",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 268.01,
+    "protein": 15.57,
+    "carbs": 0.44,
+    "fat": 22.01
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:485",
+   "name": "Ovo, de codorna, inteiro, cru",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 176.89,
+    "protein": 13.69,
+    "carbs": 0.77,
+    "fat": 12.68
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:486",
+   "name": "Ovo, de galinha, clara, cozida/10minutos",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 59.44,
+    "protein": 13.45,
+    "carbs": 0,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:487",
+   "name": "Ovo, de galinha, gema, cozida/10minutos",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 352.67,
+    "protein": 15.9,
+    "carbs": 1.56,
+    "fat": 30.78
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:488",
+   "name": "Ovo, de galinha, inteiro, cozido/10minutos",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 145.7,
+    "protein": 13.29,
+    "carbs": 0.61,
+    "fat": 9.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:489",
+   "name": "Ovo, de galinha, inteiro, cru",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 143.11,
+    "protein": 13.03,
+    "carbs": 1.64,
+    "fat": 8.9
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:490",
+   "name": "Ovo, de galinha, inteiro, frito",
+   "category": "Ovos e derivados",
+   "per100g": {
+    "kcal": 240.19,
+    "protein": 15.62,
+    "carbs": 1.19,
+    "fat": 18.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:491",
+   "name": "Achocolatado, pó",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 401.02,
+    "protein": 4.2,
+    "carbs": 91.18,
+    "fat": 2.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:492",
+   "name": "Açúcar, cristal",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 386.85,
+    "protein": 0.32,
+    "carbs": 99.61,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:493",
+   "name": "Açúcar, mascavo",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 368.55,
+    "protein": 0.76,
+    "carbs": 94.45,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:494",
+   "name": "Açúcar, refinado",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 386.57,
+    "protein": 0.32,
+    "carbs": 99.54,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:495",
+   "name": "Chocolate, ao leite",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 539.59,
+    "protein": 7.22,
+    "carbs": 59.58,
+    "fat": 30.27
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:496",
+   "name": "Chocolate, ao leite, com castanha do Pará",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 558.88,
+    "protein": 7.41,
+    "carbs": 55.38,
+    "fat": 34.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:497",
+   "name": "Chocolate, ao leite, dietético",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 556.82,
+    "protein": 6.9,
+    "carbs": 56.32,
+    "fat": 33.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:498",
+   "name": "Chocolate, meio amargo",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 474.92,
+    "protein": 4.86,
+    "carbs": 62.42,
+    "fat": 29.86
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:499",
+   "name": "Cocada branca",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 448.85,
+    "protein": 1.12,
+    "carbs": 81.38,
+    "fat": 13.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:500",
+   "name": "Doce, de abóbora, cremoso",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 198.94,
+    "protein": 0.92,
+    "carbs": 54.61,
+    "fat": 0.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:501",
+   "name": "Doce, de leite, cremoso",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 306.31,
+    "protein": 5.48,
+    "carbs": 59.49,
+    "fat": 5.99
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:502",
+   "name": "Geléia, mocotó, natural",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 106.09,
+    "protein": 2.13,
+    "carbs": 24.23,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:503",
+   "name": "Glicose de milho",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 292.12,
+    "protein": 0,
+    "carbs": 79.38,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:504",
+   "name": "Maria mole",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 301.24,
+    "protein": 3.81,
+    "carbs": 73.55,
+    "fat": 0.19
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:505",
+   "name": "Maria mole, coco queimado",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 306.63,
+    "protein": 3.93,
+    "carbs": 75.06,
+    "fat": 0.09
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:506",
+   "name": "Marmelada",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 257.24,
+    "protein": 0.4,
+    "carbs": 70.76,
+    "fat": 0.14
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:507",
+   "name": "Mel, de abelha",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 309.24,
+    "protein": 0,
+    "carbs": 84.03,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:508",
+   "name": "Melado",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 296.51,
+    "protein": 0,
+    "carbs": 76.62,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:509",
+   "name": "Quindim",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 411.35,
+    "protein": 4.74,
+    "carbs": 46.3,
+    "fat": 24.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:510",
+   "name": "Rapadura",
+   "category": "Produtos açucarados",
+   "per100g": {
+    "kcal": 351.96,
+    "protein": 0.99,
+    "carbs": 90.79,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:511",
+   "name": "Café, pó, torrado",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 418.62,
+    "protein": 14.7,
+    "carbs": 65.75,
+    "fat": 11.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:512",
+   "name": "Capuccino, pó",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 417.41,
+    "protein": 11.31,
+    "carbs": 73.61,
+    "fat": 8.63
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:513",
+   "name": "Fermento em pó, químico",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 89.72,
+    "protein": 0.48,
+    "carbs": 43.91,
+    "fat": 0.07
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:514",
+   "name": "Fermento, biológico, levedura, tablete",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 89.79,
+    "protein": 16.96,
+    "carbs": 7.7,
+    "fat": 1.52
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:515",
+   "name": "Gelatina, sabores variados, pó",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 380.22,
+    "protein": 8.89,
+    "carbs": 89.22,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:516",
+   "name": "Sal, dietético",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:517",
+   "name": "Sal, grosso",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:518",
+   "name": "Shoyu",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 60.93,
+    "protein": 3.31,
+    "carbs": 11.65,
+    "fat": 0.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:519",
+   "name": "Tempero a base de sal",
+   "category": "Miscelâneas",
+   "per100g": {
+    "kcal": 21.33,
+    "protein": 2.67,
+    "carbs": 2.07,
+    "fat": 0.26
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:520",
+   "name": "Azeitona, preta, conserva",
+   "category": "Outros alimentos industrializados",
+   "per100g": {
+    "kcal": 194.15,
+    "protein": 1.16,
+    "carbs": 5.54,
+    "fat": 20.35
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:521",
+   "name": "Azeitona, verde, conserva",
+   "category": "Outros alimentos industrializados",
+   "per100g": {
+    "kcal": 136.94,
+    "protein": 0.95,
+    "carbs": 4.1,
+    "fat": 14.22
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:522",
+   "name": "Chantilly, spray, com gordura vegetal",
+   "category": "Outros alimentos industrializados",
+   "per100g": {
+    "kcal": 314.96,
+    "protein": 0.53,
+    "carbs": 16.86,
+    "fat": 27.27
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:523",
+   "name": "Leite, de coco",
+   "category": "Outros alimentos industrializados",
+   "per100g": {
+    "kcal": 166.16,
+    "protein": 1.01,
+    "carbs": 2.19,
+    "fat": 18.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:524",
+   "name": "Maionese, tradicional com ovos",
+   "category": "Outros alimentos industrializados",
+   "per100g": {
+    "kcal": 302.15,
+    "protein": 0.58,
+    "carbs": 7.9,
+    "fat": 30.5
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:525",
+   "name": "Acarajé",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 289.21,
+    "protein": 8.35,
+    "carbs": 19.11,
+    "fat": 19.93
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:526",
+   "name": "Arroz carreteiro",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 153.77,
+    "protein": 10.83,
+    "carbs": 11.58,
+    "fat": 7.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:527",
+   "name": "Baião de dois, arroz e feijão-de-corda",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 135.68,
+    "protein": 6.24,
+    "carbs": 20.42,
+    "fat": 3.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:528",
+   "name": "Barreado",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 164.98,
+    "protein": 18.27,
+    "carbs": 0.24,
+    "fat": 9.53
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:529",
+   "name": "Bife à cavalo, com contra filé",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 291.23,
+    "protein": 23.66,
+    "carbs": 0,
+    "fat": 21.15
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:530",
+   "name": "Bolinho de arroz",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 273.51,
+    "protein": 8.04,
+    "carbs": 41.68,
+    "fat": 8.29
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:531",
+   "name": "Camarão à baiana",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 100.78,
+    "protein": 7.94,
+    "carbs": 3.17,
+    "fat": 5.97
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:532",
+   "name": "Charuto, de repolho",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 78.23,
+    "protein": 6.78,
+    "carbs": 10.13,
+    "fat": 1.12
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:533",
+   "name": "Cuscuz, de milho, cozido com sal",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 113.46,
+    "protein": 2.16,
+    "carbs": 25.28,
+    "fat": 0.68
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:534",
+   "name": "Cuscuz, paulista",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 142.12,
+    "protein": 2.56,
+    "carbs": 22.51,
+    "fat": 4.65
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:535",
+   "name": "Cuxá, molho",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 80.09,
+    "protein": 5.64,
+    "carbs": 5.74,
+    "fat": 3.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:536",
+   "name": "Dobradinha",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 124.5,
+    "protein": 19.77,
+    "carbs": 0,
+    "fat": 4.44
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:537",
+   "name": "Estrogonofe de carne",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 173.14,
+    "protein": 15.03,
+    "carbs": 2.98,
+    "fat": 10.8
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:538",
+   "name": "Estrogonofe de frango",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 156.81,
+    "protein": 17.55,
+    "carbs": 2.59,
+    "fat": 7.96
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:539",
+   "name": "Feijão tropeiro mineiro",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 151.56,
+    "protein": 10.17,
+    "carbs": 19.58,
+    "fat": 6.79
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:540",
+   "name": "L",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 116.93,
+    "protein": 8.67,
+    "carbs": 11.64,
+    "fat": 6.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:541",
+   "name": "Frango, com açafrão",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 112.78,
+    "protein": 9.7,
+    "carbs": 4.06,
+    "fat": 6.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:542",
+   "name": "Macarrão, molho bolognesa",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 119.53,
+    "protein": 4.93,
+    "carbs": 22.52,
+    "fat": 0.89
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:543",
+   "name": "Maniçoba",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 134.22,
+    "protein": 9.96,
+    "carbs": 3.42,
+    "fat": 8.7
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:544",
+   "name": "Quibebe",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 86.35,
+    "protein": 8.56,
+    "carbs": 6.64,
+    "fat": 2.67
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:545",
+   "name": "Salada, de legumes, com maionese",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 96.1,
+    "protein": 1.05,
+    "carbs": 8.92,
+    "fat": 7.04
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:546",
+   "name": "Salada, de legumes, cozida no vapor",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 35.41,
+    "protein": 2.01,
+    "carbs": 7.09,
+    "fat": 0.31
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:547",
+   "name": "Salpicão, de frango",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 147.86,
+    "protein": 13.93,
+    "carbs": 4.57,
+    "fat": 7.84
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:548",
+   "name": "Sarapatel",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 122.98,
+    "protein": 18.47,
+    "carbs": 1.09,
+    "fat": 4.42
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:549",
+   "name": "Tabule",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 57.45,
+    "protein": 2.05,
+    "carbs": 10.58,
+    "fat": 1.21
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:550",
+   "name": "Tacacá",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 46.89,
+    "protein": 6.96,
+    "carbs": 3.39,
+    "fat": 0.36
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:551",
+   "name": "Tapioca, com manteiga",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 347.83,
+    "protein": 0.09,
+    "carbs": 63.59,
+    "fat": 10.91
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:552",
+   "name": "Tucupi, com pimenta-de-cheiro",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 27.18,
+    "protein": 2.06,
+    "carbs": 4.74,
+    "fat": 0.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:553",
+   "name": "Vaca atolada",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 144.9,
+    "protein": 5.12,
+    "carbs": 10.06,
+    "fat": 9.32
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:554",
+   "name": "Vatapá",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 254.89,
+    "protein": 6,
+    "carbs": 9.75,
+    "fat": 23.23
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:555",
+   "name": "Virado à paulista",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 306.95,
+    "protein": 10.18,
+    "carbs": 14.11,
+    "fat": 25.59
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:556",
+   "name": "Yakisoba",
+   "category": "Alimentos preparados",
+   "per100g": {
+    "kcal": 112.8,
+    "protein": 7.52,
+    "carbs": 18.25,
+    "fat": 2.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:557",
+   "name": "Amendoim, grão, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 544.05,
+    "protein": 27.19,
+    "carbs": 20.31,
+    "fat": 43.85
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:558",
+   "name": "Amendoim, torrado, salgado",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 605.78,
+    "protein": 22.48,
+    "carbs": 18.7,
+    "fat": 53.96
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:559",
+   "name": "Ervilha, em vagem",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 88.09,
+    "protein": 7.45,
+    "carbs": 14.23,
+    "fat": 0.47
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:560",
+   "name": "Ervilha, enlatada, drenada",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 73.84,
+    "protein": 4.6,
+    "carbs": 13.44,
+    "fat": 0.38
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:561",
+   "name": "Feijão, carioca, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 76.42,
+    "protein": 4.78,
+    "carbs": 13.59,
+    "fat": 0.54
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:562",
+   "name": "Feijão, carioca, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 329.03,
+    "protein": 19.98,
+    "carbs": 61.22,
+    "fat": 1.26
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:563",
+   "name": "Feijão, fradinho, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 78.01,
+    "protein": 5.09,
+    "carbs": 13.5,
+    "fat": 0.64
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:564",
+   "name": "Feijão, fradinho, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 339.16,
+    "protein": 20.21,
+    "carbs": 61.24,
+    "fat": 2.37
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:565",
+   "name": "Feijão, jalo, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 92.74,
+    "protein": 6.14,
+    "carbs": 16.5,
+    "fat": 0.51
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:566",
+   "name": "Feijão, jalo, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 327.91,
+    "protein": 20.1,
+    "carbs": 61.48,
+    "fat": 0.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:567",
+   "name": "Feijão, preto, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 77.03,
+    "protein": 4.48,
+    "carbs": 14.01,
+    "fat": 0.54
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:568",
+   "name": "Feijão, preto, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 323.57,
+    "protein": 21.34,
+    "carbs": 58.75,
+    "fat": 1.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:569",
+   "name": "Feijão, rajado, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 84.7,
+    "protein": 5.54,
+    "carbs": 15.27,
+    "fat": 0.4
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:570",
+   "name": "Feijão, rajado, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 325.84,
+    "protein": 17.27,
+    "carbs": 62.93,
+    "fat": 1.17
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:571",
+   "name": "Feijão, rosinha, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 67.87,
+    "protein": 4.54,
+    "carbs": 11.82,
+    "fat": 0.48
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:572",
+   "name": "Feijão, rosinha, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 336.96,
+    "protein": 20.92,
+    "carbs": 62.22,
+    "fat": 1.33
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:573",
+   "name": "Feijão, roxo, cozido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 76.89,
+    "protein": 5.72,
+    "carbs": 12.91,
+    "fat": 0.54
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:574",
+   "name": "Feijão, roxo, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 331.41,
+    "protein": 22.17,
+    "carbs": 59.99,
+    "fat": 1.24
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:575",
+   "name": "Grão-de-bico, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 354.7,
+    "protein": 21.23,
+    "carbs": 57.88,
+    "fat": 5.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:576",
+   "name": "Guandu, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 344.13,
+    "protein": 18.96,
+    "carbs": 64,
+    "fat": 2.13
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:577",
+   "name": "Lentilha, cozida",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 92.64,
+    "protein": 6.31,
+    "carbs": 16.3,
+    "fat": 0.52
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:578",
+   "name": "Lentilha, crua",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 339.14,
+    "protein": 23.15,
+    "carbs": 62,
+    "fat": 0.77
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:579",
+   "name": "Paçoca, amendoim",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 486.93,
+    "protein": 16,
+    "carbs": 52.38,
+    "fat": 26.08
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:580",
+   "name": "Pé-de-moleque, amendoim",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 503.19,
+    "protein": 13.16,
+    "carbs": 54.73,
+    "fat": 28.05
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:581",
+   "name": "Soja, farinha",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 403.96,
+    "protein": 36.03,
+    "carbs": 38.44,
+    "fat": 14.63
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:582",
+   "name": "Soja, extrato solúvel, natural, fluido",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 39.1,
+    "protein": 2.38,
+    "carbs": 4.28,
+    "fat": 1.61
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:583",
+   "name": "Soja, extrato solúvel, pó",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 458.9,
+    "protein": 35.69,
+    "carbs": 28.48,
+    "fat": 26.18
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:584",
+   "name": "Soja, queijo (tofu)",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 64.49,
+    "protein": 6.55,
+    "carbs": 2.13,
+    "fat": 3.95
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:585",
+   "name": "Tremoço, cru",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 381.28,
+    "protein": 33.58,
+    "carbs": 43.79,
+    "fat": 10.34
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:586",
+   "name": "Tremoço, em conserva",
+   "category": "Leguminosas e derivados",
+   "per100g": {
+    "kcal": 120.64,
+    "protein": 11.11,
+    "carbs": 12.39,
+    "fat": 3.78
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:587",
+   "name": "Amêndoa, torrada, salgada",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 580.75,
+    "protein": 18.55,
+    "carbs": 29.55,
+    "fat": 47.32
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:588",
+   "name": "Castanha-de-caju, torrada, salgada",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 570.17,
+    "protein": 18.51,
+    "carbs": 29.13,
+    "fat": 46.28
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:589",
+   "name": "Castanha-do-Brasil, crua",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 642.96,
+    "protein": 14.54,
+    "carbs": 15.08,
+    "fat": 63.46
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:590",
+   "name": "Coco, cru",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 406.49,
+    "protein": 3.69,
+    "carbs": 10.4,
+    "fat": 41.98
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:592",
+   "name": "Farinha, de mesocarpo de babaçu, crua",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 328.77,
+    "protein": 1.41,
+    "carbs": 79.17,
+    "fat": 0.2
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:593",
+   "name": "Gergelim, semente",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 583.55,
+    "protein": 21.16,
+    "carbs": 21.62,
+    "fat": 50.43
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:594",
+   "name": "Linhaça, semente",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 495.1,
+    "protein": 14.08,
+    "carbs": 43.31,
+    "fat": 32.25
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:595",
+   "name": "Pinhão, cozido",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 174.37,
+    "protein": 2.98,
+    "carbs": 43.92,
+    "fat": 0.75
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:596",
+   "name": "Pupunha, cozida",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 218.53,
+    "protein": 2.52,
+    "carbs": 29.57,
+    "fat": 12.76
+   },
+   "portions": []
+  },
+  {
+   "id": "taco:597",
+   "name": "Noz, crua",
+   "category": "Nozes e sementes",
+   "per100g": {
+    "kcal": 620.06,
+    "protein": 13.97,
+    "carbs": 18.36,
+    "fat": 59.36
+   },
+   "portions": []
+  }
+ ]
+}

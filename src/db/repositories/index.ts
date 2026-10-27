@@ -2,6 +2,7 @@ import type { SqlDb } from '../types';
 import { createAppMetaRepository } from './appMeta';
 import { defaultNow, type RepoDeps } from './deps';
 import { createExercisesRepository } from './exercises';
+import { createFoodsRepository } from './foods';
 import { createMealsRepository } from './meals';
 import { createProfileRepository } from './profile';
 import { createSessionsRepository } from './sessions';
@@ -18,6 +19,7 @@ export function createRepositories(db: SqlDb, opts: { newId: () => string; now?:
     meals: createMealsRepository(deps),
     water: createWaterRepository(deps),
     exercises: createExercisesRepository(deps),
+    foods: createFoodsRepository(deps),
     workouts: createWorkoutsRepository(deps),
     sessions: createSessionsRepository(deps),
   };

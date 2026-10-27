@@ -72,6 +72,18 @@ CREATE TABLE exercises (
 );
 CREATE INDEX idx_exercises_name_pt ON exercises(name_pt);
 
+-- Tabela TACO (somente seed). Valores por 100 g.
+CREATE TABLE foods (
+  id TEXT PRIMARY KEY NOT NULL,
+  name TEXT NOT NULL,
+  category TEXT NOT NULL,
+  kcal REAL NOT NULL,
+  protein_g REAL NOT NULL,
+  carbs_g REAL NOT NULL,
+  fat_g REAL NOT NULL,
+  portions TEXT NOT NULL DEFAULT '[]'
+);
+
 CREATE TABLE workouts (
   id TEXT PRIMARY KEY NOT NULL,
   title TEXT NOT NULL,
