@@ -1,3 +1,4 @@
+import type { ColorValue } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 
 import { colors } from '@/theme';
@@ -7,7 +8,7 @@ import { iconRegistry, type IconName } from './icons/registry';
 export type IconProps = {
   name: IconName;
   size?: number;
-  color?: string;
+  color?: ColorValue;
   strokeWidth?: number;
 };
 
